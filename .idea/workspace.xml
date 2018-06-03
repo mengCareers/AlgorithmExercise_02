@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="" />
+    <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,26 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SentenceSimilarityII.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Google/SentenceSimilarityII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#areSentencesSimilarTwo#0;class#SentenceSimilarityII#0" />
-                <element signature="method#constructMap#0;class#SentenceSimilarityII#0" />
-                <element signature="method#constructUF#0;class#SentenceSimilarityII#0" />
-                <element signature="method#compareSentences#0;class#SentenceSimilarityII#0" />
-                <element signature="e#1957#1958#0" expanded="true" />
-                <element signature="e#1998#1999#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,8 +62,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="79" />
+    <option name="x" value="83" />
+    <option name="y" value="202" />
     <option name="width" value="1322" />
     <option name="height" value="613" />
   </component>
@@ -227,15 +213,15 @@
       <updated>1527505809818</updated>
       <workItem from="1527505816873" duration="17995000" />
       <workItem from="1527807678088" duration="24997000" />
-      <workItem from="1527988564266" duration="6188000" />
+      <workItem from="1527988564266" duration="6861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49180000" />
+    <option name="totallyTimeSpent" value="49853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="79" width="1322" height="613" extended-state="0" />
+    <frame x="83" y="202" width="1322" height="613" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -246,7 +232,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.13089623" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -501,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Google/SentenceSimilarityII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="98">
+          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#areSentencesSimilarTwo#0;class#SentenceSimilarityII#0" />
