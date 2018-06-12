@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/BTLongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/FindPeakElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/FlattenNestedListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/FlipGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/FractiontoRecurringDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/GeneralizedAbbreviation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/HitCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/InsertDeleteGetRandomO1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/LongestSubstrwithAtMost2DistinctChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/LongestWordinDictionarythroughDeleting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/MeetingRoomsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/MissingRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/PacificAtlanticWaterFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/PeekingIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/PlusOneLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/SentenceScreenFitting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/SerializeDeserializeBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/SortTransformedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/StrobogrammaticNumberII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/SummaryRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/ThreeSumSmaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/TwoSumSmaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/UTF8Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/WallsAndGates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/FindPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/ImplementMagicDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BTLongestConsecutiveSeq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/GameofLife.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Google/GameofLife.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BTLongestConsecutiveSeq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/InsertDeleteGetRandomO1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Google/InsertDeleteGetRandomO1.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +16,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="FindPermutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google/FindPermutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="137" selection-start-line="11" selection-start-column="137" selection-end-line="11" selection-end-column="137" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImplementMagicDictionary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Google/ImplementMagicDictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneEditDistance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OneEditDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CombinationSumIV.java" />
-        <option value="$PROJECT_DIR$/src/HouseRobber.java" />
         <option value="$PROJECT_DIR$/src/HouseRobberII.java" />
         <option value="$PROJECT_DIR$/src/DecodeWays.java" />
         <option value="$PROJECT_DIR$/src/LongestValidParenthesis.java" />
@@ -120,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/Google/FlattenNestedListIterator.java" />
         <option value="$PROJECT_DIR$/src/Google/StrobogrammaticNumberII.java" />
         <option value="$PROJECT_DIR$/src/Google/InsertDeleteGetRandomO1.java" />
+        <option value="$PROJECT_DIR$/src/Google/FindPermutation.java" />
+        <option value="$PROJECT_DIR$/src/Google/ImplementMagicDictionary.java" />
       </list>
     </option>
   </component>
@@ -132,9 +137,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="173" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="115" />
+    <option name="y" value="194" />
     <option name="width" value="1361" />
     <option name="height" value="669" />
   </component>
@@ -146,8 +151,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +200,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertDeleteGetRandomO1">
+  <component name="RunManager" selected="Application.FindPermutation">
+    <configuration name="FindPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google.FindPermutation" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="GeneralizedAbbreviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Google.GeneralizedAbbreviation" />
       <module name="Leetcode" />
@@ -231,17 +247,6 @@
     </configuration>
     <configuration name="TwoSumSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Google.TwoSumSmaller" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="UTF8Validation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Google.UTF8Validation" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -293,19 +298,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.UTF8Validation" />
       <item itemvalue="Application.MissingRanges" />
       <item itemvalue="Application.TwoSumSmaller" />
       <item itemvalue="Application.GeneralizedAbbreviation" />
       <item itemvalue="Application.InsertDeleteGetRandomO1" />
+      <item itemvalue="Application.FindPermutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindPermutation" />
         <item itemvalue="Application.InsertDeleteGetRandomO1" />
         <item itemvalue="Application.GeneralizedAbbreviation" />
         <item itemvalue="Application.TwoSumSmaller" />
         <item itemvalue="Application.MissingRanges" />
-        <item itemvalue="Application.UTF8Validation" />
       </list>
     </recent_temporary>
   </component>
@@ -329,14 +334,16 @@
       <workItem from="1528547428194" duration="968000" />
       <workItem from="1528583973488" duration="24870000" />
       <workItem from="1528680726629" duration="7146000" />
+      <workItem from="1528760690949" duration="3659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124880000" />
+    <option name="totallyTimeSpent" value="128539000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="173" width="1361" height="669" extended-state="0" />
+    <frame x="115" y="194" width="1361" height="669" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -348,18 +355,18 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7702429" weight="0.2857143" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7702429" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13666421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13592947" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49930555" weight="0.014150944" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49930555" weight="0.013445378" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -376,24 +383,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="43" />
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DecodeWays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="106" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestValidParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Google/KEmptySlots.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -528,13 +521,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OneEditDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -781,6 +767,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/FindPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="137" selection-start-line="11" selection-start-column="137" selection-end-line="11" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneEditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/ImplementMagicDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
