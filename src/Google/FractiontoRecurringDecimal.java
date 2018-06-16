@@ -4,45 +4,49 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * input:  numerator, denominator
- * output: the fraction in string format
- * str = (double)numerator / (double)denominator
- * 2 3 5
+ It matters that we define variables properly in the face of problems related to Maths. We escape from the Integer Overflow by using long. And we use the flag variable negative to indicate if the result will be negative. We also ignore '.' and do with it in the last. In this way, we can focus on the 'pure' digits only.
  */
 public class FractiontoRecurringDecimal {
-    public static void main(String[] args) {
-        FractiontoRecurringDecimal inst = new FractiontoRecurringDecimal();
-        inst.fractionToDecimal(1, 3);
+    public String fractionToDecimal(int numerator, int denominator) {
+        return fractionToDecimal((long) numerator, (long) denominator);
     }
 
-    public String fractionToDecimal(int numerator, int denominator) {
-        StringBuilder result = new StringBuilder();
-        if ((numerator < 0) ^ (denominator < 0)) {
-            result.append("-");
+    public String fractionToDecimal(long numerator, long denominator) {
+        boolean negative = false;
+        if (numerator != 0) {
+            negative = (numerator < 0) ^ (denominator < 0);
         }
 
-        long lnumerator = Long.valueOf(numerator), ldenominator = Long.valueOf(denominator);
-        long partInteger = lnumerator / ldenominator;
-        result.append(partInteger);
-        long remainder = lnumerator % ldenominator;
+        numerator = Math.abs(numerator);
+        denominator = Math.abs(denominator);
+        Map<Long, Integer> map = new HashMap<>(); // remainder, appear position
+        StringBuilder answer = new StringBuilder();
+
+        long positive = numerator / denominator;
+        answer.append(positive);
+        long remainder = numerator - positive * denominator;
         if (remainder == 0) {
-            return String.valueOf(partInteger);
+            if (negative) {
+                return "-" + String.valueOf(positive);
+            }
+            return String.valueOf(positive);
         }
-        result.append(".");
-        Map<Long, Integer> remainderToAppearIdx = new HashMap<>();
         while (remainder != 0) {
-            if (!remainderToAppearIdx.containsKey(remainder)) {
-                remainderToAppearIdx.put(remainder, result.length());
-                remainder *= 10;
-                result.append(remainder / ldenominator);
-                remainder %= ldenominator;
-            } else {
-                result.insert(remainderToAppearIdx.get(remainder), "(");
-                result.append(")");
+            if (map.containsKey(remainder)) {
+                answer.insert(map.get(remainder), "(");
+                answer.append(")");
                 break;
             }
-
+            map.put(remainder, answer.length());
+            remainder *= 10;
+            answer.append(remainder / denominator);
+            remainder = remainder - remainder / denominator * denominator;
         }
-        return result.toString();
+
+        answer.insert(String.valueOf(positive).length(), ".");
+        if (negative) {
+            answer.insert(0, "-");
+        }
+        return answer.toString();
     }
 }
