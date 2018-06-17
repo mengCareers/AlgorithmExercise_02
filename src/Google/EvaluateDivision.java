@@ -12,16 +12,11 @@ import java.util.Set;
 public class EvaluateDivision {
 
     public static void main(String[] args) {
-        int number = 3;
-        for (char i = '0'; i <= '8'; i++) {
-            System.out.println(i - '0');
-        }
-
-//        EvaluateDivision inst = new EvaluateDivision();
-//        String[][] equations = {{"a", "b"}, {"b", "c"}};
-//        double[] values = {2.0, 3.0};
-//        String[][] queries = {{"a", "c"}, {"b", "a"}, {"a", "e"}, {"a", "a"}, {"x", "x"}};
-//        inst.calcEquation(equations, values, queries);
+        EvaluateDivision inst = new EvaluateDivision();
+        String[][] equations = {{"a", "b"}, {"b", "c"}};
+        double[] values = {2.0, 3.0};
+        String[][] queries = {{"a", "c"}, {"b", "a"}, {"a", "e"}, {"a", "a"}, {"x", "x"}};
+        inst.calcEquation(equations, values, queries);
     }
 
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
