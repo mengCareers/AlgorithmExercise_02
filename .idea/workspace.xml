@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DivideAndConquer/KthLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideAndConquer/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/BusRoutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/DataStructure/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/KthSmallestElementInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/MinimumHeightTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/MinimumWindowSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/QueueReconstructionByHeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/SplitTheArrayWithTheSameAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/PartitionLabels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Implementation/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/KthLargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChangeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CombinationSumIV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DecodeWays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/EvaluateDivision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Google/EvaluateDivision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SudokuSolver$Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Google/SudokuSolver$Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Google/SudokuSolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/HouseRobber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/HouseRobberII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/LongestValidParenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/MinimumPathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/OneEditDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/RangeSumQuery2DImmutable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/RussianDollEnvelopes$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/RussianDollEnvelopes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/WordBreakII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CombinationSumIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/CombinationSumIV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/DecodeWays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HouseRobberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/HouseRobberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestValidParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestValidParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/MinimumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OneEditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/OneEditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RangeSumQuery2DImmutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/RangeSumQuery2DImmutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RussianDollEnvelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/RussianDollEnvelopes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordBreakII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/WordBreakII.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +14,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Leetcode$CoinChangeII.ic" NAME="CoinChangeII Coverage Results" MODIFIED="1529577373350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DynamicProgramming.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CoinChangeII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/CoinChangeII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="386" selection-start-line="11" selection-start-column="386" selection-end-line="11" selection-end-column="386" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,8 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Google/MissingRanges.java" />
-        <option value="$PROJECT_DIR$/src/Google/TwoSumSmaller.java" />
         <option value="$PROJECT_DIR$/src/Google/ThreeSumSmaller.java" />
         <option value="$PROJECT_DIR$/src/Google/HIndex.java" />
         <option value="$PROJECT_DIR$/src/Google/GeneralizedAbbreviation.java" />
@@ -128,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/DivideAndConquer/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/Greedy/GasStation.java" />
         <option value="$PROJECT_DIR$/src/Greedy/PartitionLabels.java" />
+        <option value="$PROJECT_DIR$/src/Google/CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/CoinChangeII.java" />
       </list>
     </option>
   </component>
@@ -140,9 +119,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="129" />
-    <option name="y" value="68" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="52" />
+    <option name="y" value="23" />
     <option name="width" value="1361" />
     <option name="height" value="877" />
   </component>
@@ -154,9 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,18 +149,15 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,14 +182,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartitionLabels">
-    <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Google.DailyTemperatures" />
+  <component name="RunManager" selected="Application.CoinChangeII">
+    <configuration name="CoinChangeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.CoinChangeII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DivideAndConquer.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,19 +280,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DailyTemperatures" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.KthLargestElement" />
       <item itemvalue="Application.GasStation" />
       <item itemvalue="Application.PartitionLabels" />
+      <item itemvalue="Application.CoinChangeII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinChangeII" />
         <item itemvalue="Application.PartitionLabels" />
         <item itemvalue="Application.GasStation" />
         <item itemvalue="Application.KthLargestElement" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.DailyTemperatures" />
       </list>
     </recent_temporary>
   </component>
@@ -347,15 +320,17 @@
       <workItem from="1528955419305" duration="27325000" />
       <workItem from="1529199854170" duration="28070000" />
       <workItem from="1529325344356" duration="18374000" />
-      <workItem from="1529450812833" duration="27133000" />
+      <workItem from="1529450812833" duration="29225000" />
+      <workItem from="1529574149635" duration="3580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261925000" />
+    <option name="totallyTimeSpent" value="267597000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="68" width="1361" height="877" extended-state="0" />
+    <frame x="52" y="23" width="1361" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -366,25 +341,26 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22975709" side_tool="true" weight="0.24705882" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7702429" visible="true" weight="0.2777086" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7702429" weight="0.49315068" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3299045" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1719324" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1719324" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49930555" weight="0.249066" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49930555" weight="0.249066" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,20 +375,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Google/TheMazeII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="3" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Google/FractiontoRecurringDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -685,13 +647,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementation.java" />
     <entry file="file://$PROJECT_DIR$/src/FlattenBinaryTreetoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -763,9 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greedy.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy.java" />
     <entry file="file://$PROJECT_DIR$/src/Greedy/GasStation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -787,6 +741,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/CoinChangeII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="386" selection-start-line="11" selection-start-column="386" selection-end-line="11" selection-end-column="386" />
         </state>
       </provider>
     </entry>
