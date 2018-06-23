@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChangeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/CanIWin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/CheckToeplitzMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/CouplesHoldingHands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/EliminationGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/MinSwapArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/SymmetricPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DynamicProgramming/CoinChangeII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DynamicProgramming/CoinChangeII.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CoinChangeII.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/CoinChangeII.java">
+      <file leaf-file-name="CanIWin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Google/CanIWin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="386" selection-start-line="11" selection-start-column="386" selection-end-line="11" selection-end-column="386" />
+            <state relative-caret-position="216">
+              <caret line="9" column="136" selection-start-line="9" selection-start-column="136" selection-end-line="9" selection-end-column="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EliminationGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google/EliminationGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SymmetricPoints.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google/SymmetricPoints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckToeplitzMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google/CheckToeplitzMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -56,11 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Google/ThreeSumSmaller.java" />
-        <option value="$PROJECT_DIR$/src/Google/HIndex.java" />
-        <option value="$PROJECT_DIR$/src/Google/GeneralizedAbbreviation.java" />
-        <option value="$PROJECT_DIR$/src/Google/FlattenNestedListIterator.java" />
-        <option value="$PROJECT_DIR$/src/Google/StrobogrammaticNumberII.java" />
         <option value="$PROJECT_DIR$/src/Google/InsertDeleteGetRandomO1.java" />
         <option value="$PROJECT_DIR$/src/Google/FindPermutation.java" />
         <option value="$PROJECT_DIR$/src/Google/ImplementMagicDictionary.java" />
@@ -107,6 +134,11 @@
         <option value="$PROJECT_DIR$/src/Greedy/PartitionLabels.java" />
         <option value="$PROJECT_DIR$/src/Google/CoinChange.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/CoinChangeII.java" />
+        <option value="$PROJECT_DIR$/src/Google/EliminationGame.java" />
+        <option value="$PROJECT_DIR$/src/Google/SymmetricPoints.java" />
+        <option value="$PROJECT_DIR$/src/Google/MinSwapArray.java" />
+        <option value="$PROJECT_DIR$/src/Google/CouplesHoldingHands.java" />
+        <option value="$PROJECT_DIR$/src/Google/CanIWin.java" />
       </list>
     </option>
   </component>
@@ -119,11 +151,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="52" />
-    <option name="y" value="23" />
-    <option name="width" value="1361" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="13" />
+    <option name="y" value="258" />
+    <option name="width" value="1381" />
+    <option name="height" value="425" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,7 +181,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="Google" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,7 +214,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CoinChangeII">
+  <component name="RunManager" selected="Application.EliminationGame">
+    <configuration name="CanIWin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google.CanIWin" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CoinChangeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming.CoinChangeII" />
       <module name="Leetcode" />
@@ -190,6 +233,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EliminationGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google.EliminationGame" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,17 +259,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="KthLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.KthLargestElement" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DivideAndConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="PartitionLabels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greedy.PartitionLabels" />
       <module name="Leetcode" />
@@ -223,17 +266,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Implementation.QuickSort" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Implementation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,19 +312,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.KthLargestElement" />
       <item itemvalue="Application.GasStation" />
       <item itemvalue="Application.PartitionLabels" />
       <item itemvalue="Application.CoinChangeII" />
+      <item itemvalue="Application.CanIWin" />
+      <item itemvalue="Application.EliminationGame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EliminationGame" />
+        <item itemvalue="Application.CanIWin" />
         <item itemvalue="Application.CoinChangeII" />
         <item itemvalue="Application.PartitionLabels" />
         <item itemvalue="Application.GasStation" />
-        <item itemvalue="Application.KthLargestElement" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -321,15 +353,15 @@
       <workItem from="1529199854170" duration="28070000" />
       <workItem from="1529325344356" duration="18374000" />
       <workItem from="1529450812833" duration="29225000" />
-      <workItem from="1529574149635" duration="3580000" />
+      <workItem from="1529574149635" duration="19687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267597000" />
+    <option name="totallyTimeSpent" value="283704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1361" height="877" extended-state="0" />
+    <frame x="13" y="258" width="1381" height="425" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -342,19 +374,19 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7702429" weight="0.49315068" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7702429" weight="0.984639" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3299045" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1719324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16944243" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49930555" weight="0.249066" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49930555" weight="0.24884793" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -371,52 +403,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="98" />
+      <option name="time" value="102" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Google/FractiontoRecurringDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="320" selection-start-line="6" selection-start-column="320" selection-end-line="6" selection-end-column="320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/RaceCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="113" selection-start-line="32" selection-start-column="113" selection-end-line="32" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/RangeSumQuery2DMutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/MaximumDepthofBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/BSTIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Google/ConstructBTFromPreorderAndInorder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -755,6 +745,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="386" selection-start-line="11" selection-start-column="386" selection-end-line="11" selection-end-column="386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/EliminationGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/SymmetricPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/CouplesHoldingHands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/MinSwapArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/CheckToeplitzMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/CanIWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="136" selection-start-line="9" selection-start-column="136" selection-end-line="9" selection-end-column="136" />
         </state>
       </provider>
     </entry>
