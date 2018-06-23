@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Google/CanIWin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/CheckToeplitzMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/CouplesHoldingHands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/EliminationGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/MinSwapArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/SymmetricPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/IslandPerimeter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DynamicProgramming/CoinChangeII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DynamicProgramming/CoinChangeII.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,29 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CanIWin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Google/CanIWin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="136" selection-start-line="9" selection-start-column="136" selection-end-line="9" selection-end-column="136" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EliminationGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google/EliminationGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SymmetricPoints.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Google/SymmetricPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="61">
               <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IslandPerimeter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Google/IslandPerimeter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -88,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Google/InsertDeleteGetRandomO1.java" />
         <option value="$PROJECT_DIR$/src/Google/FindPermutation.java" />
         <option value="$PROJECT_DIR$/src/Google/ImplementMagicDictionary.java" />
         <option value="$PROJECT_DIR$/src/Google/SummaryRanges.java" />
@@ -139,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/Google/MinSwapArray.java" />
         <option value="$PROJECT_DIR$/src/Google/CouplesHoldingHands.java" />
         <option value="$PROJECT_DIR$/src/Google/CanIWin.java" />
+        <option value="$PROJECT_DIR$/src/Google/IslandPerimeter.java" />
       </list>
     </option>
   </component>
@@ -152,8 +137,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="258" />
+    <option name="x" value="45" />
+    <option name="y" value="486" />
     <option name="width" value="1381" />
     <option name="height" value="425" />
   </component>
@@ -353,15 +338,15 @@
       <workItem from="1529199854170" duration="28070000" />
       <workItem from="1529325344356" duration="18374000" />
       <workItem from="1529450812833" duration="29225000" />
-      <workItem from="1529574149635" duration="19687000" />
+      <workItem from="1529574149635" duration="19988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283704000" />
+    <option name="totallyTimeSpent" value="284005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="258" width="1381" height="425" extended-state="0" />
+    <frame x="45" y="486" width="1381" height="425" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -407,13 +392,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Google/ConstructBTFromPreorderAndInorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="321" selection-start-line="19" selection-start-column="321" selection-end-line="19" selection-end-column="321" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Google/ConvertSortedListToBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -748,20 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/EliminationGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/SymmetricPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Google/CouplesHoldingHands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -787,6 +751,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="136" selection-start-line="9" selection-start-column="136" selection-end-line="9" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/EliminationGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/SymmetricPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/IslandPerimeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
