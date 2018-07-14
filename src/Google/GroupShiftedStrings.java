@@ -10,31 +10,38 @@ import java.util.*;
  * group length ==, firstly
  */
 public class GroupShiftedStrings {
+    public static void main(String[] args) {
+        GroupShiftedStrings inst = new GroupShiftedStrings();
+        String[] strings = {"ba", "az"};
+        inst.groupStrings(strings);
+    }
+
     public List<List<String>> groupStrings(String[] strings) {
         Map<String, List<String>> map = new HashMap<>();
-        for (String str : strings) {
-            String wordKey = getWordKey(str);
-            if (!map.containsKey(wordKey)) {
-                map.put(wordKey, new LinkedList<>());
-            }
-            map.get(wordKey).add(str);
-        }
         List<List<String>> result = new ArrayList<>();
-        for (String k : map.keySet()) {
-            result.add(map.get(k));
+        for (String str : strings) {
+            String strKey = getKey(str.toCharArray());
+            if (!map.containsKey(strKey)) {
+                map.put(strKey, new ArrayList<>());
+            }
+            map.get(strKey).add(str);
+        }
+        for (String key : map.keySet()) {
+            result.add(map.get(key));
         }
         return result;
     }
 
-    private String getWordKey(String str) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < str.length() - 1; i++) {
-            int tmp = str.charAt(i + 1) - str.charAt(i);
-            if (tmp < 0) {
-                tmp += 26;
+    private String getKey(char[] strArr) {
+        StringBuilder key = new StringBuilder();
+        int difference = 0;
+        for (int i = 0; i < strArr.length - 1; i++) {
+            difference = strArr[i + 1] - strArr[i];
+            if (difference < 0) {
+                difference += 26;
             }
-            sb.append(tmp);
+            key.append(difference);
         }
-        return sb.toString();
+        return key.toString();
     }
 }

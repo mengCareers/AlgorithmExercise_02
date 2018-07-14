@@ -1,30 +1,23 @@
 package DynamicProgramming;
 
 /**
- * input: coins of different denominations, total amount
- * output: the fewest # of coins needed to make up the amount
- * OR -1
- * IS IT GREEDY?
- * NOT SURE. LET'S TRY DYNAMIC PROGRAMMING.
- * State: dp[i] as the minimum # of coins needed to total amount i, for 0 <= i <= amount
- * Final State: dp[amount]
- * State Transformation:
- * Standing at current stage, dp[i],
- * we can take any one of coins, coin
- * dp[i] = max(dp[i - coins[0]] + 1, dp[i - coins[1]] + 1 .. dp[i - coins[coins.length - 1]] + 1);
- */
+ state: state[i], minimum # of coins sum up to amount i
+ start state: state[0]
+ end state: state[amount]
+ aim state: state[amount]
+ state transition: min(state[i - coins[j]] + 1) = state[i]
+  */
 public class CoinChange {
     public int coinChange(int[] coins, int amount) {
-        int[] dp = new int[amount + 1];
-        dp[0] = 0;
+        int[] state = new int[amount + 1];
+        state[0] = 0;
         for (int i = 1; i <= amount; i++) {
-            dp[i] = Integer.MAX_VALUE;
-            for (int ci = 0; ci < coins.length; ci++) {
-                if (i - coins[ci] >= 0 && dp[i - coins[ci]] != Integer.MAX_VALUE) {
-                    dp[i] = Math.min(dp[i], dp[i - coins[ci]] + 1);
-                }
+            state[i] = Integer.MAX_VALUE;
+            for (int j = 0; j < coins.length; j++) {
+                if (i - coins[j] >= 0 && state[i - coins[j]] != Integer.MAX_VALUE)
+                    state[i] = Math.min(state[i], state[i - coins[j]] + 1);
             }
         }
-        return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
+        return state[amount] == Integer.MAX_VALUE ? -1 : state[amount];
     }
 }
