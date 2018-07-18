@@ -21,6 +21,20 @@ for (x,y) we can go any direction with 1
 /**
  * MENTOR: WE MAY GATHER THEM AT TOP-LEFT CORNER
  */
+/*
+Logical Thinking
+Firstly, the key to the solution is to find a way to represent the distinct shape.
+Since only the shape rather than the position matters, we can start at any point on the current island as "o", and we describe our moving directions(u(up), d(down), l(left), r(right)) to form the shape of the island, and set the end point as "e", the "o" + directions + "e" will identify a distinct shape.
+
+1 0
+1 1
+0 1
+If we choose to start at (0,0), the representation will be "o" + "drd" + "e".
+
+Secondly, how do we check the duplicate shapes? We can utilize a set shapeVisited to store all the representations of unique shapes we have ever met.
+
+Finally, we simply loop through the grid, and try to getIslandFrom() whenever we meet 1. To avoid revisiting of the same island, we set all the cells within the island (the cells mentioned in the representation of the island) to 0.
+ */
 public class NumberOfDistinctIslands {
     public int numDistinctIslands(int[][] grid) {
         Set<String> shapeVisited = new HashSet<>();

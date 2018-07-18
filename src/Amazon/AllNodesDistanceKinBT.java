@@ -13,53 +13,56 @@ import java.util.*;
  */
 public class AllNodesDistanceKinBT {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
-        Map<TreeNode, TreeNode> childToParent = new HashMap<>();
-        annotateParentFrom(childToParent, root);
 
+        Map<TreeNode, TreeNode> childToParent = new HashMap<>();
+        buildParentPointers(childToParent, root);
         Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(target);
-        int distance = 0;
-        List<Integer> result = new ArrayList<>();
         Set<TreeNode> visited = new HashSet<>();
+        queue.add(target);
+        visited.add(target);
+        int dist = 0;
+        List<Integer> result = new ArrayList<>();
 
         while (!queue.isEmpty()) {
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
+            int sz = queue.size();
+            for (int i = 0; i < sz; i++) {
                 TreeNode curNode = queue.poll();
-                visited.add(curNode);
-                if (distance == K) {
+                if (dist == K) {
                     result.add(curNode.val);
                 }
                 if (curNode.left != null && !visited.contains(curNode.left)) {
-                    queue.offer(curNode.left);
+                    queue.add(curNode.left);
+                    visited.add(curNode.left);
                 }
                 if (curNode.right != null && !visited.contains(curNode.right)) {
-                    queue.offer(curNode.right);
+                    queue.add(curNode.right);
+                    visited.add(curNode.right);
                 }
                 if (childToParent.containsKey(curNode) && !visited.contains(childToParent.get(curNode))) {
-                    queue.offer(childToParent.get(curNode));
+                    queue.add(childToParent.get(curNode));
+                    visited.add(childToParent.get(curNode));
                 }
             }
             if (!result.isEmpty()) {
                 return result;
             }
-            distance++;
+            dist++;
         }
 
         return result;
     }
 
-    private void annotateParentFrom(Map<TreeNode, TreeNode> childToParent, TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-        while (!stack.empty()) {
-            TreeNode curNode = stack.pop();
+    private void buildParentPointers(Map<TreeNode, TreeNode> childToParent, TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeNode curNode = queue.poll();
             if (curNode.left != null) {
-                stack.push(curNode.left);
+                queue.add(curNode.left);
                 childToParent.put(curNode.left, curNode);
             }
             if (curNode.right != null) {
-                stack.push(curNode.right);
+                queue.add(curNode.right);
                 childToParent.put(curNode.right, curNode);
             }
         }
