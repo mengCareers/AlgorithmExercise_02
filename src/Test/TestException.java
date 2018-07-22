@@ -1,3 +1,5 @@
+package Test;
+
 public class TestException {
     private void methodWithException() {
         throw new RuntimeException("we throw a runtime exception");

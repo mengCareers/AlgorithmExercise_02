@@ -6,6 +6,6 @@ package Amazon;
  */
 public class NumberOfDistinctIslandsII {
     public int numDistinctIslands2(int[][] grid) {
-
+return 1;
     }
 }

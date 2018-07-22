@@ -3,19 +3,19 @@ package 编程之美;
 /**
  * Factorial is an interesting function.
  * Q0: given N, get the position of last one in Binary N!
+ * actually count number of 2 in factors
  * Q1: given N, count the number of 0 in the end of N!
- */
-/*         M
-N! = x * 10
-m is the answer
- x   y   z
-2 * 3 * 5
-x, z matters, M = min(x, z), it is inductive that z is smaller, thus,
-M = z
+ * actually count number of 5 in factors
  */
 public class Factorial {
     public int countLastPositionOfOneInBinaryFactorial(int N) {
-        // N!含有质因数2的个数 + 1
+        if (N == 0) {
+            try {
+                throw new Exception("Invalid parameter.");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
         int cntTwo = 0, curNum;
         for (int i = 1; i <= N; i++) {
             curNum = i;
@@ -24,7 +24,7 @@ public class Factorial {
                 curNum /= 2;
             }
         }
-        return cntTwo + 1;
+        return cntTwo;
     }
 
     public int countEndingZeroesOfFactorial(int N) {
@@ -35,24 +35,22 @@ public class Factorial {
                 e.printStackTrace();
             }
         }
-        int cntZero = 0, curNum;
+        int cntFive = 0, curNum;
         for (int i = 1; i <= N; i++) { // all factorials
             curNum = i;
             while (curNum % 5 == 0) {
-                cntZero++;
+                cntFive++;
                 curNum /= 5;
             }
         }
-        return cntZero;
+        return cntFive;
     }
 
-    public static void main(String[] args) {
-
-        Factorial inst = new Factorial();
-
-        System.out.println(inst.countLastPositionOfOneInBinaryFactorial(8));
-
-//        inst.countEndingZeroesOfFactorial(0);
-
+    private static int fact(int num) {
+        if (num == 1) {
+            return 1;
+        }
+        return num * fact(num - 1);
     }
+
 }
