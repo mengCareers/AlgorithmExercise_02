@@ -1,6 +1,7 @@
 package DivideAndConquer;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 
@@ -16,20 +17,20 @@ public class DifferentWaysToAddParentheses {
 
     public List<Integer> diffWaysToCompute(String input) {
 
-        List<Integer> result = new ArrayList<>();
-
+        List<Integer> result = new LinkedList<>();
         for (int i = 0; i < input.length(); i++) {
-            if (input.charAt(i) == '+' || input.charAt(i) == '-' || input.charAt(i) == '*') {
-                List<Integer> leftResults = diffWaysToCompute(input.substring(0, i));
-                List<Integer> rightResults = diffWaysToCompute(input.substring(i + 1));
-                for (int leftResult : leftResults) {
-                    for (int rightResult : rightResults) {
-                        if (input.charAt(i) == '+') {
-                            result.add(leftResult + rightResult);
-                        } else if (input.charAt(i) == '-') {
-                            result.add(leftResult - rightResult);
+            char symbol = input.charAt(i);
+            if (symbol == '+' || symbol == '-' || symbol == '*') {
+                List<Integer> leftPart = diffWaysToCompute(input.substring(0, i));
+                List<Integer> rightPart = diffWaysToCompute(input.substring(i + 1));
+                for (int leftNum : leftPart) {
+                    for (int rightNum : rightPart) {
+                        if (symbol == '+') {
+                            result.add(leftNum + rightNum);
+                        } else if (symbol == '-') {
+                            result.add(leftNum - rightNum);
                         } else {
-                            result.add(leftResult * rightResult);
+                            result.add(leftNum * rightNum);
                         }
                     }
                 }

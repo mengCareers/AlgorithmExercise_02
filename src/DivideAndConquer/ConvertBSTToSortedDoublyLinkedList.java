@@ -39,26 +39,24 @@ public class ConvertBSTToSortedDoublyLinkedList {
 
         Node dummyNode = new Node(0, null, null);
         prev = dummyNode;
-        reduceProblemHelper(root);
-
-        prev.right = dummyNode.right;
+        inorderTraversal(root);
         dummyNode.right.left = prev;
+        prev.right = dummyNode.right;
 
         return dummyNode.right;
     }
 
-    private void reduceProblemHelper(Node cur) {
-
+    private void inorderTraversal(Node cur) {
         if (cur == null) {
             return;
         }
 
-        reduceProblemHelper(cur.left);
+        inorderTraversal(cur.left);
 
         prev.right = cur;
         cur.left = prev;
         prev = cur;
 
-        reduceProblemHelper(cur.right);
+        inorderTraversal(cur.right);
     }
 }

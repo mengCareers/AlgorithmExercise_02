@@ -1,7 +1,7 @@
 package Google;
 
 /**
- * dfs
+ * DFS
  * each 'E' can be start
  * if (W or Edge) return ( no need )
  */

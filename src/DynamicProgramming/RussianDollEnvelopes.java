@@ -3,28 +3,9 @@ package DynamicProgramming;
 import java.util.Arrays;
 import java.util.Comparator;
 
-/** 354. Russian Doll Envelopes
- * The problem is to get the maximum # of envelopes I can Russian doll,
- * Russian doll is formed when w1 < w2 and h1 < h2 from envelope 0 to n - 1
-
- It seems difficult to induce the State Transformation Equation.
- Let's think about it in the way of Exhaustive Searching:
-
- Firstly, we sort the envelopes by width increasingly,
- if two envelopes share the same width,
- we sort their heights decreasingly for further comparison.
- It's inductive that the Longest Increasing Subsequence among heights will be the answer.
-
- As for the Longest Increasing Subsequence, we will apply the bottom-up DP.
-
- State : dpi to represent the LIS from nums[0] to nums[i] ending at nums[i]
- Aim State : max(dp[i]) for 0 <= i < nums.length
- State Transfer :
- for nums[i] (0 <= i < nums.length)
- if nums[j] < nums[i] (0<= j < i), dp[i] = max(dp[j]) + 1;
- if not, dp[i] = 1;
- and we will keep track of the max(dp[i]) on the fly
- */
+/**
+ * 354. Russian Doll Envelopes
+ **/
 public class RussianDollEnvelopes {
     private int getLongestIncreasingSequence(int[] nums) {
         int[] dp = new int[nums.length];

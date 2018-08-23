@@ -1,45 +1,61 @@
 package DynamicProgramming;
 
 /**
- * state: state[i], maximum amount of money able to rob nums[0, i]
- * end state: state[len-1]
- * aim state: state[len-1]
- * state transition: state[i] = max(state[i - 2] + nums[i], state[i - 1])
- * state[0] = nums[0];
- * state[1] = max(nums[0], nums[1]);
+ * 198.House Robber
  */
 public class HouseRobber {
-    public int rob(int[] nums) {
-        if (nums.length == 0) {
+    public int rob_0(int[] nums) {
+
+        if (nums == null || nums.length == 0) {
             return 0;
         }
-        if (nums.length == 1) {
-            return nums[0];
+
+        int n = nums.length;
+        int[][] state = new int[n][2]; // 0 - abort, 1 - rob
+        state[0][0] = 0;
+        state[0][1] = nums[0];
+        for (int i = 1; i < n; i++) {
+            state[i][0] = Math.max(state[i - 1][0], state[i - 1][1]);
+            state[i][1] = state[i - 1][0] + nums[i];
         }
-        int[] state = new int[nums.length];
-        state[0] = nums[0];
-        state[1] = Math.max(nums[0], nums[1]);
-        for (int i = 2; i <= nums.length - 1; i++) {
-            state[i] = Math.max(state[i - 2] + nums[i], state[i - 1]);
-        }
-        return state[nums.length - 1];
+
+        return Math.max(state[n - 1][0], state[n - 1][1]);
     }
 
-    public int robOneDimension(int[] nums) {
-        if (nums.length == 0) {
+    public int rob_1(int[] nums) {
+
+        if (nums == null || nums.length == 0) {
             return 0;
         }
-        if (nums.length == 1) {
-            return nums[0];
+
+        int n = nums.length;
+        int[] rob = new int[n];
+        int[] abort = new int[n];
+        rob[0] = nums[0];
+        abort[0] = 0;
+        for (int i = 1; i < n; i++) {
+            abort[i] = Math.max(abort[i - 1], rob[i - 1]);
+            rob[i] = abort[i - 1] + nums[i];
         }
-        int prepre = nums[0];
-        int pre = Math.max(nums[0], nums[1]);
-        int cur = pre;
-        for (int i = 2; i <= nums.length - 1; i++) {
-            cur = Math.max(prepre + nums[i], pre);
-            prepre = pre;
-            pre = cur;
+
+        return Math.max(abort[n - 1], rob[n - 1]);
+    }
+
+    public int rob_2(int[] nums) {
+
+        if (nums == null || nums.length == 0) {
+            return 0;
         }
-        return cur;
+
+        int n = nums.length;
+        int rob = nums[0];
+        int abort = 0;
+        for (int i = 1; i < n; i++) {
+            int preAbort = abort;
+            abort = Math.max(abort, rob);
+            rob = preAbort + nums[i];
+        }
+
+        return Math.max(abort, rob);
     }
 }

@@ -1,10 +1,7 @@
 package DynamicProgramming;
 
 /**
- state[i]: # of ways sum up to i
- start state: state[0] # of ways sum up to 0
- end state: state[target] # of ways sum up to target
- state transition: state[i] = sum(state[i - nums[j]])
+ * 377. Combination Sum IV
  */
 public class CombinationSumIV {
     public int combinationSum4(int[] nums, int target) {
