@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/RemoveDupFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BruteForce/RestoreIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideAndConquer/ConvertSortestListToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideAndConquer/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideAndConquer/PathSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/InterleavingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/UniqueBSTII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/FractionToRecurringDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BruteForce/PermutationSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Contest/AllPossibleFullBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Contest/GroupsOfSpecialEquiStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/CandyCrush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/DesignSnakeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/ThreeSumClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/TestMathAbs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Test/TestRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Test/TestRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Array/RemoveDupFromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Array/RemoveDupFromSortedArray.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +23,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Leetcode$FractionToRecurringDecimal.ic" NAME="FractionToRecurringDecimal Coverage Results" MODIFIED="1535456853148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Array.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Leetcode$AdvantageShuffle.ic" NAME="AdvantageShuffle Coverage Results" MODIFIED="1531624028648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Contest.*</FILTER>
     </SUITE>
@@ -37,7 +37,29 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DesignSnakeGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google/DesignSnakeGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+              <folding>
+                <element signature="docComment;field#o#0;class#DesignSnakeGame#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CandyCrush.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Design/CandyCrush.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,16 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Amazon/Util转换.java" />
-        <option value="$PROJECT_DIR$/src/Facebook/SimplifyPath.java" />
-        <option value="$PROJECT_DIR$/src/Facebook/SplitArrayLargestSum.java" />
-        <option value="$PROJECT_DIR$/src/Facebook/RomanToInteger.java" />
-        <option value="$PROJECT_DIR$/src/Facebook/WordBreak.java" />
-        <option value="$PROJECT_DIR$/src/Facebook/NumberOfLIS.java" />
-        <option value="$PROJECT_DIR$/src/Contest/ConstructBTfFromPreAndPostOrder.java" />
-        <option value="$PROJECT_DIR$/src/Facebook/WordDirectory.java" />
-        <option value="$PROJECT_DIR$/src/Facebook/AddSearchWord.java" />
-        <option value="$PROJECT_DIR$/src/Facebook/ImplementTrie.java" />
         <option value="$PROJECT_DIR$/src/GoldmanSachs/ReverseAlgebraicExpression.java" />
         <option value="$PROJECT_DIR$/src/GoldmanSachs/WholeMinuteDilemma.java" />
         <option value="$PROJECT_DIR$/src/GoldmanSachs/PressAForCapsLock.java" />
@@ -142,6 +154,16 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/UniqueBSTII.java" />
         <option value="$PROJECT_DIR$/src/Array/RemoveDupFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/Array/SetMatrixZeroes.java" />
+        <option value="$PROJECT_DIR$/src/BruteForce/PermutationSequence.java" />
+        <option value="$PROJECT_DIR$/src/Contest/GroupsOfSpecialEquiStrings.java" />
+        <option value="$PROJECT_DIR$/src/Contest/AllPossibleFullBT.java" />
+        <option value="$PROJECT_DIR$/src/Contest/MaximumFrequencyStack.java" />
+        <option value="$PROJECT_DIR$/src/Array/FractionToRecurringDecimal.java" />
+        <option value="$PROJECT_DIR$/src/BFS/ContainVirus.java" />
+        <option value="$PROJECT_DIR$/src/Google/DesignSnakeGame.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestMathAbs.java" />
+        <option value="$PROJECT_DIR$/src/Google/ThreeSumClosest.java" />
       </list>
     </option>
   </component>
@@ -155,10 +177,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="337" />
-    <option name="y" value="23" />
-    <option name="width" value="1277" />
-    <option name="height" value="747" />
+    <option name="x" value="97" />
+    <option name="y" value="493" />
+    <option name="width" value="1183" />
+    <option name="height" value="685" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,6 +204,18 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,7 +250,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveDupFromSortedArray">
+  <component name="RunManager" selected="Application.ThreeSumClosest">
+    <configuration name="ContainVirus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BFS.ContainVirus" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CountTargetNumberInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Facebook.CountTargetNumberInSortedArray" />
       <module name="Leetcode" />
@@ -228,41 +273,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FlattenBinaryTreeToLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.FlattenBinaryTreeToLinkedList" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DivideAndConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="HamiltonianCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="算法竞赛入门经典.DFS.HamiltonianCycle" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="算法竞赛入门经典.DFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PathSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.PathSumII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DivideAndConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RemoveDupFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.RemoveDupFromSortedArray" />
+    <configuration name="FractionToRecurringDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.FractionToRecurringDecimal" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -272,13 +284,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.TestRecursion" />
+    <configuration name="MaximumFrequencyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Contest.MaximumFrequencyStack" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Contest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestMathAbs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestMathAbs" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google.ThreeSumClosest" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,19 +359,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HamiltonianCycle" />
-      <item itemvalue="Application.TestRecursion" />
-      <item itemvalue="Application.PathSumII" />
-      <item itemvalue="Application.FlattenBinaryTreeToLinkedList" />
-      <item itemvalue="Application.RemoveDupFromSortedArray" />
+      <item itemvalue="Application.MaximumFrequencyStack" />
+      <item itemvalue="Application.FractionToRecurringDecimal" />
+      <item itemvalue="Application.ContainVirus" />
+      <item itemvalue="Application.TestMathAbs" />
+      <item itemvalue="Application.ThreeSumClosest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDupFromSortedArray" />
-        <item itemvalue="Application.FlattenBinaryTreeToLinkedList" />
-        <item itemvalue="Application.PathSumII" />
-        <item itemvalue="Application.TestRecursion" />
-        <item itemvalue="Application.HamiltonianCycle" />
+        <item itemvalue="Application.ThreeSumClosest" />
+        <item itemvalue="Application.TestMathAbs" />
+        <item itemvalue="Application.ContainVirus" />
+        <item itemvalue="Application.FractionToRecurringDecimal" />
+        <item itemvalue="Application.MaximumFrequencyStack" />
       </list>
     </recent_temporary>
   </component>
@@ -403,12 +437,12 @@
       <workItem from="1534920148200" duration="3637000" />
       <workItem from="1534980855075" duration="16044000" />
       <workItem from="1535067274447" duration="4737000" />
-      <workItem from="1535107334622" duration="6352000" />
+      <workItem from="1535107334622" duration="21059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="893967000" />
+    <option name="totallyTimeSpent" value="908674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,11 +454,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="337" y="23" width="1277" height="747" extended-state="0" />
+    <frame x="169" y="89" width="1183" height="685" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.30163446" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.30136988" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -432,19 +467,19 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76853377" weight="0.24368499" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76853377" weight="0.24222586" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32853025" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26546595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40997463" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" visible="true" weight="0.42199108" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3294893" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" visible="true" weight="0.0801964" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -547,6 +582,18 @@
           <properties />
           <option name="timeStamp" value="435" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/FractionToRecurringDecimal.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Google/ThreeSumClosest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Facebook/RomanToInteger.java</url>
           <line>14</line>
@@ -567,87 +614,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="440" />
+      <option name="time" value="456" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Contest/ConstructBTfFromPreAndPostOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="38" selection-start-line="5" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoldmanSachs/WholeMinuteDilemma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" selection-start-line="23" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1253">
-          <caret line="5735" column="31" selection-start-line="5735" selection-start-column="19" selection-end-line="5735" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoldmanSachs/PressAForCapsLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoldmanSachs/SchoolAllotment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoldmanSachs/LatestStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoldmanSachs/PerfectTeams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="348" column="15" lean-forward="true" selection-start-line="348" selection-start-column="15" selection-end-line="348" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoldmanSachs/CharitableGiving.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoldmanSachs/RemoveComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="6" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GoldmanSachs/EricaBobGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -931,6 +901,109 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contest/MaximumFrequencyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BFS/ContainVirus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Region#0;class#ContainVirus#0" />
+            <element signature="method#containVirus#0;class#ContainVirus#0" />
+            <element signature="method#findAllInfectedRegions#0;class#ContainVirus#0" />
+            <element signature="method#findAllInfectedRegionsFrom#0;class#ContainVirus#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/FractionToRecurringDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contest/AllPossibleFullBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#allPossibleFBT#0;class#AllPossibleFullBT#0" />
+            <element signature="method#generateTrees#0;class#AllPossibleFullBT#0" />
+            <element signature="method#generateTreesFrom#0;class#AllPossibleFullBT#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contest/GroupsOfSpecialEquiStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="method#isSpecialEquivGroups#0;class#GroupsOfSpecialEquiStrings#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BruteForce/PermutationSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="72" column="16" lean-forward="true" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/SetMatrixZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestMathAbs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/ThreeSumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/DesignSnakeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding>
+            <element signature="docComment;field#o#0;class#DesignSnakeGame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design/CandyCrush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
