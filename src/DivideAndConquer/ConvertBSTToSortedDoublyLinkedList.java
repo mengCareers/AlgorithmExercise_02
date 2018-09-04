@@ -47,6 +47,7 @@ public class ConvertBSTToSortedDoublyLinkedList {
     }
 
     private void inorderTraversal(Node cur) {
+
         if (cur == null) {
             return;
         }

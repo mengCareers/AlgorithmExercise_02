@@ -49,6 +49,37 @@ public class IsValidNumber {
         boolean hasDot = false, hasE = false, hasNumber = false, hasNumberAfterE = false;
 
         while (i < len) {
+            /*
+            0;
+            1
+
+            if (+ /- ) { // ++
+              i++;
+            }
+            while ( ) {
+             i++;
+            }
+            if ( .) { // .3
+            i++;
+             while ()
+            }
+
++/- i;
+1  num
+.
+e
++/-  (num) + (. num)
+i
+i++
+while (isdigit(i)) i++
+if (.) i++   (i == nums.length(
+while (isdigit(i)) i++
+
+break; (i
+
++/- ().( e+-()  )
+             */
+
             if (array[i] >= '0' && array[i] <= '9') {
                 hasNumberAfterE = true;
                 hasNumber = true;

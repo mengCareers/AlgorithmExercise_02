@@ -5,9 +5,11 @@ public class FlattenBinaryTreetoLinkedList {
     }
 
     private TreeNode flattenRecur(TreeNode root) {
+
         if (root == null) {
             return root;
         }
+
         TreeNode leftNode = flattenRecur(root.left); // 2 3 4
         TreeNode rightNode = flattenRecur(root.right); // 5 6
         root.right = leftNode;
@@ -17,6 +19,7 @@ public class FlattenBinaryTreetoLinkedList {
             ptr = ptr.right;
         }
         ptr.right = rightNode;
+
         return root;
     }
 }
