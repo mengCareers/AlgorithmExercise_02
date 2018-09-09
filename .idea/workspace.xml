@@ -2,27 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Contest/BitwiseORsOfSubarrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facebook/PerfectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/IntegerToEnglishWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/LicenseKeyFormatting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/ReorganizeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google/WordSearchII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TestDividing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisjointSets/SurroundedRegions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/AStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/GenerateSubsetsUsingBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/Heap/TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/Trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/前向型指针/FindTheMiddleOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/前向型指针/LengthOfLongestSubstringKDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/前向型指针/LinkedListCycleI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/前向型指针/LinkedListCycleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/前向型指针/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/前向型指针/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/前向型指针/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google/Extension/前向型指针/ShortestSubarraySumBiggerThan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Design/WordFilter$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Design/WordFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Design/WordFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DivideAndConquer/ConvertBSTToSortedDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DivideAndConquer/ConvertBSTToSortedDoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Facebook/IsValidNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Facebook/IsValidNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/FlattenBinaryTreetoLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/FlattenBinaryTreetoLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SldingWIndowMaximum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivideAndConquer/ConvertBSTToSortedDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideAndConquer/ConvertBSTToSortedDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Facebook/IsValidNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facebook/IsValidNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlattenBinaryTreetoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlattenBinaryTreetoLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SldingWIndowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Google/SlidingWindowMaximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/算法竞赛入门经典/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法竞赛入门经典/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ReorganizeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Google/ReorganizeString.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,14 +46,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReorganizeString.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Google/ReorganizeString.java">
+      <file leaf-file-name="TopKFrequentElements.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google/Extension/Heap/TopKFrequentElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="96">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Google/Extension/Trie/Trie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#reorganizeString#0;class#ReorganizeString#0" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +76,7 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="yet_unknown" />
         <option value="Class" />
       </list>
     </option>
@@ -94,6 +100,9 @@
       <find>tmp</find>
       <find>charToOrder</find>
       <find>preEnd</find>
+      <find>cols</find>
+      <find>&quot;</find>
+      <find>]</find>
     </findStrings>
     <replaceStrings>
       <replace>cntBytes</replace>
@@ -107,6 +116,8 @@
       <replace>stoneGameFrom</replace>
       <replace>cur</replace>
       <replace>charToInt</replace>
+      <replace>n</replace>
+      <replace>{</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/Contest</dir>
@@ -118,25 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BruteForce/SubsetDup.java" />
-        <option value="$PROJECT_DIR$/src/BruteForce/Combinations.java" />
-        <option value="$PROJECT_DIR$/src/BruteForce/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/src/BruteForce/CombinationSumUsedOnce.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPostorder.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/Graph/EulerCircuit.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/Graph/EulerianGrap.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/Graph/EulerianGraph.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/DFS/GetConnectedComponent.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/DFS/TopologicalSortImpl.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/DFS/HamiltonianCycle.java" />
-        <option value="$PROJECT_DIR$/src/Test/TestRecursion.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.java" />
-        <option value="$PROJECT_DIR$/src/DivideAndConquer/ConvertSortestListToBST.java" />
-        <option value="$PROJECT_DIR$/src/DivideAndConquer/PathSumII.java" />
-        <option value="$PROJECT_DIR$/src/DivideAndConquer/FlattenBinaryTreeToLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/BruteForce/RestoreIPAddress.java" />
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/InterleavingString.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/UniqueBSTII.java" />
         <option value="$PROJECT_DIR$/src/Array/RemoveDupFromSortedArray.java" />
@@ -169,6 +161,25 @@
         <option value="$PROJECT_DIR$/src/Google/LongestConsecutiveSequence.java" />
         <option value="$PROJECT_DIR$/src/Google/IntegerToEnglishWords.java" />
         <option value="$PROJECT_DIR$/src/Google/ReorganizeString.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/GenerateSubsetsLexicographically.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/GenerateSubsetsUsingBinary.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/AStar.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/DisjointSets/SurroundedRegions.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/LongestSubstringWORepeatingChars.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/ShortestSubarraySumBiggerThan.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/MinimumWindowSubstring.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/SlidingWindow/LongestSubstringWORepeatingChars.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/前向型指针/LinkedListCycleII.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/前向型指针/LongestSubstringWORepeatingChars.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/前向型指针/LongestSubstringWithAtMostKDistinctChars.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/前向型指针/LongestSubstringWithoutRepeatingCharacters.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/前向型指针/MinimumWindowSubstring.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/前向型指针/ShortestSubarraySumBiggerThan.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/前向型指针/FindTheMiddleOfLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/前向型指针/RemoveNthNodeFromEndOfList.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/Heap/TopKFrequentElements.java" />
+        <option value="$PROJECT_DIR$/src/Google/Extension/Trie/Trie.java" />
       </list>
     </option>
   </component>
@@ -182,10 +193,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="23" />
-    <option name="width" value="1199" />
-    <option name="height" value="766" />
+    <option name="x" value="677" />
+    <option name="y" value="209" />
+    <option name="width" value="1132" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -195,7 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,14 +223,43 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DisjointSets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Google" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Google" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Google" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Trie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,6 +273,9 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Google/Extension/SlidingWindow" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DivideAndConquer" />
     </key>
@@ -249,29 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReorganizeString">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="算法竞赛入门经典.BinarySearch" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="算法竞赛入门经典.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="BitwiseORsOfSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Contest.BitwiseORsOfSubarrays" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Contest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacters">
     <configuration name="CountTargetNumberInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Facebook.CountTargetNumberInSortedArray" />
       <module name="Leetcode" />
@@ -283,35 +304,57 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="IntegerToEnglishWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Google.IntegerToEnglishWords" />
+    <configuration name="GenerateSubsetsUsingBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google.Extension.GenerateSubsetsUsingBinary" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Google.*" />
+          <option name="PATTERN" value="Google.Extension.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Google.LongestConsecutiveSequence" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google.Extension.前向型指针.LongestSubstringWithoutRepeatingCharacters" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Google.*" />
+          <option name="PATTERN" value="Google.Extension.前向型指针.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReorganizeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Google.ReorganizeString" />
+    <configuration name="ShortestSubarraySumBiggerThan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google.Extension.ShortestSubarraySumBiggerThan" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Google.*" />
+          <option name="PATTERN" value="Google.Extension.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SurroundedRegions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DisjointSets.SurroundedRegions" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DisjointSets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="UnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google.Extension.UnionFind" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Google.Extension.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,19 +401,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BitwiseORsOfSubarrays" />
-      <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.LongestConsecutiveSequence" />
-      <item itemvalue="Application.IntegerToEnglishWords" />
-      <item itemvalue="Application.ReorganizeString" />
+      <item itemvalue="Application.GenerateSubsetsUsingBinary" />
+      <item itemvalue="Application.UnionFind" />
+      <item itemvalue="Application.SurroundedRegions" />
+      <item itemvalue="Application.ShortestSubarraySumBiggerThan" />
+      <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReorganizeString" />
-        <item itemvalue="Application.IntegerToEnglishWords" />
-        <item itemvalue="Application.LongestConsecutiveSequence" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.BitwiseORsOfSubarrays" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="Application.ShortestSubarraySumBiggerThan" />
+        <item itemvalue="Application.SurroundedRegions" />
+        <item itemvalue="Application.UnionFind" />
+        <item itemvalue="Application.GenerateSubsetsUsingBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -440,12 +483,14 @@
       <workItem from="1535574563495" duration="10870000" />
       <workItem from="1535764409578" duration="12438000" />
       <workItem from="1535925541099" duration="5289000" />
-      <workItem from="1535931369849" duration="13608000" />
+      <workItem from="1535931369849" duration="25207000" />
+      <workItem from="1536248519950" duration="9615000" />
+      <workItem from="1536344188623" duration="3545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="953301000" />
+    <option name="totallyTimeSpent" value="978060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,31 +502,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="23" width="1199" height="766" extended-state="0" />
+    <frame x="677" y="209" width="1132" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.30136988" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23146623" side_tool="true" weight="0.24955437" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76853377" weight="0.36560693" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76853377" weight="0.14984709" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15095913" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3833922" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" visible="true" weight="0.21820809" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" weight="0.40519878" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3279797" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,38 +533,8 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.30136988" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3294893" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76853377" visible="true" weight="0.24190477" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.585034" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" weight="0.087173104" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23146623" side_tool="true" weight="0.24955437" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.30579966" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -603,6 +617,24 @@
           <properties />
           <option name="timeStamp" value="464" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Google/ReorganizeString.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DisjointSets/SurroundedRegions.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Google/Extension/前向型指针/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Facebook/RomanToInteger.java</url>
           <line>14</line>
@@ -623,120 +655,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="477" />
+      <option name="time" value="501" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPostorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" selection-start-line="8" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="60" selection-start-line="25" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/算法竞赛入门经典/DFS/HamiltonianCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/算法竞赛入门经典/BFS/ShortestPathWithDirections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BruteForce/RestoreIPAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="50" column="64" lean-forward="true" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/InterleavingString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/RemoveDupFromSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/UniqueBSTII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Contest/MaximumFrequencyStack.java" />
-    <entry file="file://$PROJECT_DIR$/src/BFS/ContainVirus.java" />
-    <entry file="file://$PROJECT_DIR$/src/Array/FractionToRecurringDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Contest/AllPossibleFullBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Contest/GroupsOfSpecialEquiStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BruteForce/PermutationSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="72" column="16" lean-forward="true" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/SetMatrixZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -923,10 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,9 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,9 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,21 +894,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding>
-            <element signature="method#numberToWords#0;class#IntegerToEnglishWords#0" />
-            <element signature="method#numberNNtoWords#0;class#IntegerToEnglishWords#0" />
-            <element signature="method#numberNNNtoWords#0;class#IntegerToEnglishWords#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Google/ReorganizeString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="1239">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#reorganizeString#0;class#ReorganizeString#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DisjointSets/SurroundedRegions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/UnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="71" selection-start-line="71" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/AStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/GenerateSubsetsUsingBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/LongestSubstringWORepeatingChars.java" />
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/MinimumWindowSubstring.java" />
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/ShortestSubarraySumBiggerThan.java" />
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/前向型指针/LinkedListCycleII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/前向型指针/FindTheMiddleOfLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/前向型指针/RemoveNthNodeFromEndOfList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/前向型指针/MinimumWindowSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/前向型指针/LongestSubstringWithoutRepeatingCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/前向型指针/LengthOfLongestSubstringKDistinct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/前向型指针/ShortestSubarraySumBiggerThan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/前向型指针/LinkedListCycleI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/Heap/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Extension/Trie/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
