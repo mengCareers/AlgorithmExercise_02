@@ -13,7 +13,7 @@ public class Trie {
         Map<Character, TrieNode> curChildren = root.children;
         char[] wordArray = word.toCharArray();
         for (int i = 0; i < wordArray.length; i++) {
-            char wc = wordArray.charAt(i);
+            char wc = wordArray[i];
         }
     }
 }

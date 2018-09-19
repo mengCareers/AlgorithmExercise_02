@@ -49,22 +49,6 @@ public class BinarySearch {
             }
         }
 
-//        int lo = 0, hi = nums.length;
-//        while (lo < hi) {
-//            int mi = lo + (hi - lo) / 2;
-//            if (nums[mi] < target) {
-//                lo = mi + 1;
-//            } else if (nums[mi] > target) {
-//                hi = mi;
-//            } else {
-//                if (mi + 1 < nums.length && nums[mi + 1] == target) {
-//                    // mi is not the answer
-//                    lo = mi + 1;
-//                    continue;
-//                }
-//                return mi;
-//            }
-//        }
         return lo;
     }
 
