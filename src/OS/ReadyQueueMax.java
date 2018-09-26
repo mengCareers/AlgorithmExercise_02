@@ -2,97 +2,122 @@ package OS;
 
 public class ReadyQueueMax {
 
+    private OSProcess[] processes; // Array simulation of the max-heap.
+    private int numProcesses; // Number of processes currently
 
-    private OSProcess[] processes; // array simulation of min heap
-
-    private int numberOfProcesses; // number of processes
-
-    public ReadyQueueMax(int heapSize) {
-        numberOfProcesses = 0;
-        processes = new OSProcess[heapSize];
+    public ReadyQueueMax(int maxSize) {
+        processes = new OSProcess[maxSize];
+        numProcesses = 0;
     }
 
+    /**
+     * Get the process at top of heap - with the highest priority
+     *
+     * @return the process with the highest priority
+     */
     public OSProcess getHighestPriorityProcess() {
+        return (isEmpty()) ? null : processes[0];
+    }
+
+    /**
+     * To remove a process from the Ready Queue.
+     *
+     * @return The process removed.
+     * @throws Exception When the Ready Queue is empty.
+     */
+    public OSProcess remove() throws Exception {
+
         if (isEmpty())
-            return null;
-        else
-            return processes[0];
+            throw new Exception("The Ready Queue is empty");
+
+        // Move the last process of heap to the top and sift it down into its proper position.
+        OSProcess toRemove = processes[0];
+
+        processes[0] = processes[numProcesses - 1];
+        numProcesses--;
+        siftDown(0);
+
+        return toRemove;
     }
 
-    private void shiftDown(int nid) {
-        int leftChildIndex = getLeftChildIndex(nid), rightChildIndex = getRightChildIndex(nid);
-        int maxIndex; // smaller one of leftChildIndex and rightChildIndex
-        OSProcess tmp;
+    /**
+     * To insert a new process to the Ready Queue.
+     *
+     * @param process The new process.
+     */
+    public void insert(OSProcess process) {
 
-        if (rightChildIndex >= numberOfProcesses) { // if without right child
-            if (leftChildIndex >= numberOfProcesses) { // if without left child
-                return;
-            } else {
-                maxIndex = leftChildIndex;
-            }
-        } else {
-            if (processes[leftChildIndex].pPriority >= processes[rightChildIndex].pPriority) {
-                maxIndex = leftChildIndex;
-            } else
-                maxIndex = rightChildIndex;
+        if (numProcesses == processes.length) {
+            // Either enlarge the heap or throw Expception when the storage of heap is overflow.
+            OSProcess[] newProcesses = new OSProcess[processes.length * 2];
+            System.arraycopy(processes, 0, newProcesses, 0, numProcesses);
+            processes = newProcesses;
+
+            //throw new Exception("The underlying storage of the Ready Queue is overflow");
         }
-        if (processes[nid].pPriority < processes[maxIndex].pPriority) {
-            tmp = processes[maxIndex];
-            processes[maxIndex] = processes[nid];
-            processes[nid] = tmp;
-            shiftDown(maxIndex);
-        }
+        // Add the specified process to the heap and sift it up into its proper position.
+        processes[numProcesses] = process;
+        siftUp(numProcesses);
+        numProcesses++;
     }
 
+    /**
+     * Sift processes[processIndex] down into its proper position.
+     *
+     * @param processIndex
+     */
+    private void siftDown(int processIndex) {
 
-    private void shiftUp(int nid) {
-        int parentIndex;
-        OSProcess tmp;
-        if (nid != 0) {
-            parentIndex = getParentIndex(nid);
-            if (processes[parentIndex].pPriority < processes[nid].pPriority) {
-                tmp = processes[parentIndex];
-                processes[parentIndex] = processes[nid];
-                processes[nid] = tmp;
-                shiftUp(parentIndex);
-            }
+        OSProcess toSift = processes[processIndex];
+
+        // Find where toSift belongs.
+        int parentIndex = processIndex;
+        int childIndex = 2 * processIndex + 1;
+        while (childIndex < numProcesses) {
+            if (childIndex < numProcesses - 1 &&
+                    processes[childIndex].getProcessPriority() < processes[childIndex + 1].getProcessPriority())
+                childIndex = childIndex + 1;
+            if (toSift.getProcessPriority() >= processes[childIndex].getProcessPriority())
+                break;
+            // Move processes[childIndex] up and move down one level in the tree.
+            processes[parentIndex] = processes[childIndex];
+            parentIndex = childIndex;
+            childIndex = 2 * parentIndex + 1;
         }
+
+        processes[parentIndex] = toSift;
     }
 
-    public void remove() throws Exception {
-        if (isEmpty()) {
-            throw new Exception("Heap is empty");
-        } else {
-            processes[0] = processes[numberOfProcesses - 1];
-            numberOfProcesses--;
-            if (numberOfProcesses > 0)
-                shiftDown(0);
+    /**
+     * Sift processes[processIndex] up into its proper position.
+     *
+     * @param processIndex
+     */
+    private void siftUp(int processIndex) {
+
+        OSProcess toSift = processes[processIndex];
+
+        // Find where toSift belongs.
+        int childIndex = processIndex;
+        while (childIndex > 0) {
+            int parentIndex = (childIndex - 1) / 2;
+            if (toSift.getProcessPriority() <= processes[parentIndex].getProcessPriority())
+                break;
+            // Move processes[parentIndex] down and move up one level in the tree.
+            processes[childIndex] = processes[parentIndex];
+            childIndex = parentIndex;
         }
+
+        processes[childIndex] = toSift;
     }
 
-    public void insert(OSProcess process) throws Exception {
-        if (numberOfProcesses == processes.length) {
-            throw new Exception("Heap's underlying storage is overflow");
-        } else {
-            numberOfProcesses++;
-            processes[numberOfProcesses - 1] = process;
-            shiftUp(numberOfProcesses - 1);
-        }
-    }
-
+    /**
+     * Check if the Ready Queue is empty now.
+     *
+     * @return true if the heap currently has no items.
+     */
     public boolean isEmpty() {
-        return (numberOfProcesses == 0);
+        return (numProcesses == 0);
     }
 
-    private int getParentIndex(int nid) {
-        return (nid - 1) / 2;
-    }
-
-    private int getLeftChildIndex(int nid) {
-        return 2 * nid + 1;
-    }
-
-    private int getRightChildIndex(int nid) {
-        return 2 * nid + 2;
-    }
 }

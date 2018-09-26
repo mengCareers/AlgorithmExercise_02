@@ -64,6 +64,7 @@ public class BinarySearch {
     （第一个大于等于TARGET的数 或 插入点）的范围是 [0, len]
 
     define [lo, hi + 1]
+
     1) lo = 0, hi = len - 1
     2) mi
         nums[mi] < target, lo = mi + 1, [mi + 1, hi + 1]
@@ -99,7 +100,7 @@ public class BinarySearch {
         //2).[lo, hi] =>
         // nums[mi] > target => hi = mi -1 [lo, mi-1]
         // nums[lo] ... nums[mi-1] (nums[mi] ......
-        // nums[mi] < target => lo = mi + 1
+        // nums[mi] < target => lo = mi + 1 [mi +1, hi]
         // ... nums[mi]) nums[mi+1] ... nums[hi]
         //3). lo == hi, [5, 3]
 

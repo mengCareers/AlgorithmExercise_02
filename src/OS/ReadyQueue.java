@@ -5,7 +5,6 @@ import sun.dc.pr.PRError;
 public class ReadyQueue {
 
 
-
     private OSProcess[] processes; // array simulation of min heap
 
     private int numberOfProcesses; // number of processes
@@ -34,12 +33,12 @@ public class ReadyQueue {
                 minIndex = leftChildIndex;
             }
         } else {
-            if (processes[leftChildIndex].pPriority <= processes[rightChildIndex].pPriority) {
+            if (processes[leftChildIndex].getProcessPriority() <= processes[rightChildIndex].getProcessPriority()) {
                 minIndex = leftChildIndex;
             } else
                 minIndex = rightChildIndex;
         }
-        if (processes[nid].pPriority > processes[minIndex].pPriority) {
+        if (processes[nid].getProcessPriority() > processes[minIndex].getProcessPriority()) {
             tmp = processes[minIndex];
             processes[minIndex] = processes[nid];
             processes[nid] = tmp;
@@ -52,7 +51,7 @@ public class ReadyQueue {
         OSProcess tmp;
         if (nid != 0) {
             parentIndex = getParentIndex(nid);
-            if (processes[parentIndex].pPriority > processes[nid].pPriority) {
+            if (processes[parentIndex].getProcessPriority() > processes[nid].getProcessPriority()) {
                 tmp = processes[parentIndex];
                 processes[parentIndex] = processes[nid];
                 processes[nid] = tmp;
