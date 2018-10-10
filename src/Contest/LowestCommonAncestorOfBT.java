@@ -1,6 +1,6 @@
 package Contest;
 
-import Google.TreeNode;
+import CompanyOriented.Google.TreeNode;
 
 /**
  * LCA of p, q

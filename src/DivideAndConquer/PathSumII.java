@@ -1,6 +1,6 @@
 package DivideAndConquer;
 
-import Google.TreeNode;
+import CompanyOriented.Google.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package Contest;
 
-import Google.TreeNode;
+import CompanyOriented.Google.TreeNode;
 
 /*
 538. Convert BST to Greater Tree

@@ -1,6 +1,6 @@
 package Contest;
 
-import Google.TreeNode;
+import CompanyOriented.Google.TreeNode;
 
 import java.util.HashSet;
 import java.util.LinkedList;

@@ -1,6 +1,6 @@
 package CompanyOriented.Karat;
 
-import Google.TreeNode;
+import CompanyOriented.Google.TreeNode;
 
 import java.util.*;
 

@@ -1,6 +1,6 @@
 package DivideAndConquer;
 
-import Google.TreeNode;
+import CompanyOriented.Google.TreeNode;
 
 public class FlattenBinaryTreeToLinkedList {
 

@@ -1,6 +1,6 @@
 package DivideAndConquer;
 
-import Google.TreeNode;
+import CompanyOriented.Google.TreeNode;
 
 /*
 109. Convert Sorted List to Binary Search Tree
