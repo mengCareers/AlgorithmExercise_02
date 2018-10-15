@@ -5,17 +5,22 @@ import java.util.Map;
 
 public class Trie {
     TrieNode root;
+
     public Trie() {
         root = new TrieNode();
     }
+
     public void insert(String word) {
         TrieNode ptr = root;
-        Map<Character, TrieNode> curChildren = root.children;
+
         char[] wordArray = word.toCharArray();
-        for (int i = 0; i < wordArray.length; i++) {
-            char wc = wordArray[i];
+        for (char ch : wordArray) {
+            if (!ptr.children.containsKey(ch))
+                ptr.children.put(ch, new TrieNode());
+            ptr = ptr.children.get(ch);
         }
     }
+
 }
 
 class TrieNode {

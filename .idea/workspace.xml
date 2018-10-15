@@ -2,412 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/BlackRock/Share.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/BlackRock/testRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/BasicCalculatorII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/BinaryTreeMaxPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/BlacklistPinTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/DivideTwoIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/EmployeeFreeTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/FindTheCelebrity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Game24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/GmailDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/HitCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/LongestIncreasingSequenceInBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MajorityInSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MaxProductOf4AdjacentInMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/RangeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SimilaritySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/TopKElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/WordMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mock/ParenthesisWithStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/BehaviorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/CompareFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/ConvertSortedListToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/DiameterOfBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/ParititionToKEqualSumSubsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PhoneNumberDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Read4API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubstractOverlapped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/TreeZigzagLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/UniqueInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/WeighedIntervalOverlapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/AllNodesDistanceKinBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/AllNodesDistanceKinBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/ConstructBTFromString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/ConstructBTFromString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/EqualTreePartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/EqualTreePartition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/MaximumWidthOfBT$TreeNodeWithPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/MaximumWidthOfBT$TreeNodeWithPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/MaximumWidthOfBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/MaximumWidthOfBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/MostFrequentSubtreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/MostFrequentSubtreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/SplitBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Amazon/SplitBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Facebook/BSTIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Facebook/BSTIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Facebook/BTVerticalOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Facebook/BTVerticalOrderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/PinArrangement$Pin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/PinArrangement$Pin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/PinArrangement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/PinArrangement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Contest/AllPossibleFullBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Contest/AllPossibleFullBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Contest/ConstructBTfFromPreAndPostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Contest/ConstructBTfFromPreAndPostOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Contest/ConvertBSTToGreaterTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Contest/ConvertBSTToGreaterTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Contest/DiameterOfBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Contest/DiameterOfBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Contest/LeafSimilarTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Contest/LeafSimilarTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Contest/LowestCommonAncestorOfBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Contest/LowestCommonAncestorOfBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Contest/SmallestSubtreeWithAllDeepestNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Contest/SmallestSubtreeWithAllDeepestNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DFS/DFSLevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DFS/DFSLevelOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DFS/FindLeavesOfBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DFS/FindLeavesOfBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DivideAndConquer/ConvertSortestListToBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DivideAndConquer/ConvertSortestListToBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DivideAndConquer/FlattenBinaryTreeToLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DivideAndConquer/FlattenBinaryTreeToLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DivideAndConquer/PathSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DivideAndConquer/PathSumII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/DynamicProgramming/UniqueBSTII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/DynamicProgramming/UniqueBSTII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/AddBoldTaginString$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/AddBoldTaginString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/AdditiveNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BSTIterator$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BSTIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BTLongestConsecutiveSequence$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BTLongestConsecutiveSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BasicCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BasicCalculatorII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BasicCalculatorIII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BinaryTreeZigzagLevelOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BombEnemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BullsAndCows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/BusRoutes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/CanIWin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/CheckIfTwoLineSegmentsIntersect$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/CheckIfTwoLineSegmentsIntersect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/CheckToeplitzMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/CombinationSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ConstructBTFromPreorderAndInorder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ConvertSortedListToBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/CountOfRangeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/CouplesHoldingHands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/DailyTemperatures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/DataStructure/Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/DataStructure/MyHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/DesignSnakeGame$Snake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/DesignSnakeGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/EliminationGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/EncodeAndDecodeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/EvaluateDivision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ExpressionAddOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/AStar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/BinarySearch/Sqrt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/DisjointSets/NumberOfIslandsii.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/GenerateSubsetsUsingBinary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/Heap/TopKFrequentElements$Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/Heap/TopKFrequentElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/ShortestPath/CheapestFlightsWithinKStops.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/String/BasicCalculatorII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/Trie/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/Trie/TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/UnionFind$DisjointSets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/UnionFind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/前向型指针/FindTheMiddleOfLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/前向型指针/LengthOfLongestSubstringKDistinct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/前向型指针/LinkedListCycleI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/前向型指针/LinkedListCycleII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/前向型指针/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/前向型指针/MinimumWindowSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/前向型指针/RemoveNthNodeFromEndOfList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Extension/前向型指针/ShortestSubarraySumBiggerThan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/FindMedianFromDataStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/FindPeakElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/FindPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/FindTheNumberOfIdenticalSubtree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/FlattenNestedListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/FlipGameII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/FractiontoRecurringDecimal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/GameofLife.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/GasStation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/GeneralizedAbbreviation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/GenerateParentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/GroupShiftedStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/GuessTheWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/HIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/HitCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ImplementMagicDictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/InfixToPostfixExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/InsertDeleteGetRandomO1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/IntegerToEnglishWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/IslandPerimeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/IsomorphicStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/KEmptySlots.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/KSimilarStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/KthSmallestElementInBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LetterCombinationsOfPhoneNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LicenseKeyFormatting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LongestAbsoluteFilePath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LongestConsecutiveSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LongestPalindromicSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LongestSubstrAtMostKDistinctCh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LongestSubstringWithAtMostKDistinctCh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LongestSubstrwithAtMost2DistinctChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LongestWordinDictionarythroughDeleting$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/LongestWordinDictionarythroughDeleting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Master.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MaxIncreaseToKeepCitySkyline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MaximumDepthofBT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MeetingRoomsII$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MeetingRoomsII$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MeetingRoomsII$Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MeetingRoomsII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MinSwapArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MinimumCostToHireKWorkers$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MinimumCostToHireKWorkers$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MinimumCostToHireKWorkers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MinimumHeightTrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MinimumWindowSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MissingRanges.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/MyCalendarII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/NextClosestTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/NumMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/OrientationOfThreeOrderedPoints$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/OrientationOfThreeOrderedPoints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/OverlappingRectangles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PacificAtlanticWaterFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PeekingIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PerfectSquares.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PermutationSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Permutations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/AddBinary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/CoinsInLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/DeletionInBT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/IsomorphicStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/KMP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/LCAofDeepestNodes$Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/LCAofDeepestNodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/MyBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/SimplifyPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/TreeAfterErased.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/WordBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PhoneInterview/WordBreakSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PlusOneLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/PostfixExpToExpressionTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/QueueReconstructionByHeight$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/QueueReconstructionByHeight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/RaceCar$StateNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/RaceCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/RangeSumQuery2DMutable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/RangeSumQuery_Mutable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ReconstructItinerary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/RectangleArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/RedundantConnection$DisjointSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/RedundantConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/RedundantConnectionII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ReorganizeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SentenceScreenFitting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SentenceSimilarityII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SerializeDeserializeBT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ShortestDistancefromAllBuildings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SlidingWindowMaximum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SlidingWindowMedian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SlidingWindowSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SlidingWindowSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SortTransformedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SplitArrayIntoFibonacciSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SplitTheArrayWithTheSameAverage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/StringToBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/StrobogrammaticNumberII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Subsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SubsetsII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SudokuSolver$Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SudokuSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SummaryRanges.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/SymmetricPoints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/TheMaze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/TheMazeII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ThreeSumClosest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ThreeSumSmaller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Trie$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/TwoSumSmaller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/UF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/UTF8Validation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/UniqueWordAbbreviation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/WallsAndGates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/WiggleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/WordSearchII$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/WordSearchII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Google/ZigzagIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Test/TestGetSubtreeNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Test/TestGetSubtreeNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPostorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPostorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Amazon/AllNodesDistanceKinBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Amazon/AllNodesDistanceKinBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Amazon/ConstructBTFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Amazon/ConstructBTFromString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Amazon/EqualTreePartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Amazon/EqualTreePartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Amazon/MaximumWidthOfBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Amazon/MaximumWidthOfBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Amazon/MostFrequentSubtreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Amazon/MostFrequentSubtreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Amazon/SplitBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Amazon/SplitBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Facebook/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Facebook/BSTIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Facebook/BTVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Facebook/BTVerticalOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Karat/ForestLike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Karat/ForestLike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PinArrangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PinArrangement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contest/AllPossibleFullBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contest/AllPossibleFullBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contest/ConstructBTfFromPreAndPostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contest/ConstructBTfFromPreAndPostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contest/ConvertBSTToGreaterTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contest/ConvertBSTToGreaterTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contest/DiameterOfBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contest/DiameterOfBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contest/LeafSimilarTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contest/LeafSimilarTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contest/LowestCommonAncestorOfBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contest/LowestCommonAncestorOfBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contest/SmallestSubtreeWithAllDeepestNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contest/SmallestSubtreeWithAllDeepestNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS/DFSLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/DFSLevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS/FindLeavesOfBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/FindLeavesOfBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivideAndConquer/ConvertSortestListToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideAndConquer/ConvertSortestListToBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivideAndConquer/FlattenBinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideAndConquer/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivideAndConquer/PathSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideAndConquer/PathSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/UniqueBSTII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/UniqueBSTII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/AddBoldTaginString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/AddBoldTaginString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/AdditiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/AdditiveNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BSTIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BTLongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BTLongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BasicCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BasicCalculatorII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BasicCalculatorII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BasicCalculatorIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BasicCalculatorIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BinaryTreeZigzagLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BombEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BombEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BullsAndCows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BullsAndCows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/BusRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/BusRoutes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/CanIWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/CanIWin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/CheckIfTwoLineSegmentsIntersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/CheckIfTwoLineSegmentsIntersect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/CheckToeplitzMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/CheckToeplitzMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ConstructBTFromPreorderAndInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ConstructBTFromPreorderAndInorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ConvertSortedListToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ConvertSortedListToBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/CountOfRangeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/CountOfRangeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/CouplesHoldingHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/CouplesHoldingHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/DailyTemperatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/DataStructure/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/DataStructure/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/DesignSnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/DesignSnakeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/EliminationGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/EliminationGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/EncodeAndDecodeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/EncodeAndDecodeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/EvaluateDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/EvaluateDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ExpressionAddOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ExpressionAddOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/AStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/AStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/BinarySearch/FindPeakElementII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/BinarySearch/FindPeakElementII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/BinarySearch/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/BinarySearch/Sqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/DisjointSets/NumberOfIslandsii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/DisjointSets/NumberOfIslandsii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/GenerateSubsetsUsingBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/GenerateSubsetsUsingBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/Heap/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/Heap/TopKFrequentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/ShortestPath/CheapestFlightsWithinKStops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/ShortestPath/CheapestFlightsWithinKStops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/String/BasicCalculatorII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/String/BasicCalculatorII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/Trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/UnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/前向型指针/FindTheMiddleOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/前向型指针/FindTheMiddleOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/前向型指针/LengthOfLongestSubstringKDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/前向型指针/LengthOfLongestSubstringKDistinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/前向型指针/LinkedListCycleI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/前向型指针/LinkedListCycleI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/前向型指针/LinkedListCycleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/前向型指针/LinkedListCycleII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/前向型指针/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/前向型指针/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/前向型指针/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/前向型指针/MinimumWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/前向型指针/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/前向型指针/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Extension/前向型指针/ShortestSubarraySumBiggerThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/前向型指针/ShortestSubarraySumBiggerThan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/FindMedianFromDataStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/FindMedianFromDataStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/FindPeakElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/FindPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/FindPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/FindTheNumberOfIdenticalSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/FindTheNumberOfIdenticalSubtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/FlattenNestedListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/FlattenNestedListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/FlipGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/FlipGameII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/FractiontoRecurringDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/FractiontoRecurringDecimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/GameofLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/GameofLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/GasStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/GeneralizedAbbreviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/GeneralizedAbbreviation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/GenerateParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/GroupShiftedStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/GroupShiftedStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/GuessTheWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/GuessTheWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/HIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/HIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/HitCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/HitCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ImplementMagicDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ImplementMagicDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/InfixToPostfixExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/InfixToPostfixExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/InsertDeleteGetRandomO1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/InsertDeleteGetRandomO1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/IntegerToEnglishWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/IntegerToEnglishWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/IslandPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/IslandPerimeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/IsomorphicStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/KEmptySlots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/KEmptySlots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/KSimilarStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/KSimilarStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/KthSmallestElementInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/KthSmallestElementInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LetterCombinationsOfPhoneNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LetterCombinationsOfPhoneNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LicenseKeyFormatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LicenseKeyFormatting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LongestAbsoluteFilePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LongestAbsoluteFilePath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LongestSubstrAtMostKDistinctCh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LongestSubstrAtMostKDistinctCh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LongestSubstringWithAtMostKDistinctCh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LongestSubstringWithAtMostKDistinctCh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LongestSubstrwithAtMost2DistinctChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LongestSubstrwithAtMost2DistinctChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/LongestWordinDictionarythroughDeleting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/LongestWordinDictionarythroughDeleting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MaxIncreaseToKeepCitySkyline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MaxIncreaseToKeepCitySkyline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MaximumDepthofBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MaximumDepthofBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MeetingRoomsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MeetingRoomsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MinSwapArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MinSwapArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MinimumCostToHireKWorkers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MinimumCostToHireKWorkers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MinimumHeightTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MinimumHeightTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MinimumWindowSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MinimumWindowSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MissingRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MissingRanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/MyCalendarII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/MyCalendarII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/NextClosestTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/NextClosestTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/NumMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/NumMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/OrientationOfThreeOrderedPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/OrientationOfThreeOrderedPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/OverlappingRectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/OverlappingRectangles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PacificAtlanticWaterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PacificAtlanticWaterFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PeekingIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PeekingIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PerfectSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PerfectSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PermutationSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/AddBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/CoinsInLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/CoinsInLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/DeletionInBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/DeletionInBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/IsomorphicStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/LCAofDeepestNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/LCAofDeepestNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/MyBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/MyBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/SimplifyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/SimplifyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/TreeAfterErased.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/TreeAfterErased.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/WordBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PhoneInterview/WordBreakSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/WordBreakSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PlusOneLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PlusOneLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/PostfixExpToExpressionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PostfixExpToExpressionTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/QueueReconstructionByHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/QueueReconstructionByHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/RaceCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/RaceCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/RangeSumQuery2DMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/RangeSumQuery2DMutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/RangeSumQuery_Mutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/RangeSumQuery_Mutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ReconstructItinerary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ReconstructItinerary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/RectangleArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/RectangleArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/RedundantConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/RedundantConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/RedundantConnectionII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/RedundantConnectionII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ReorganizeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ReorganizeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SentenceScreenFitting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SentenceScreenFitting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SentenceSimilarityII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SentenceSimilarityII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SerializeDeserializeBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SerializeDeserializeBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ShortestDistancefromAllBuildings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ShortestDistancefromAllBuildings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SlidingWindowMaximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SlidingWindowMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SlidingWindowMedian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SlidingWindowSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SlidingWindowSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SlidingWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SlidingWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SortTransformedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SortTransformedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SplitArrayIntoFibonacciSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SplitArrayIntoFibonacciSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SplitTheArrayWithTheSameAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SplitTheArrayWithTheSameAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/StringToBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/StringToBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/StrobogrammaticNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/StrobogrammaticNumberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SubsetsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SubsetsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SudokuSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SummaryRanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/SymmetricPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/SymmetricPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/TheMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/TheMaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/TheMazeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/TheMazeII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ThreeSumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ThreeSumSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ThreeSumSmaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/TwoSumSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/TwoSumSmaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/UTF8Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/UTF8Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/UniqueWordAbbreviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/UniqueWordAbbreviation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/WallsAndGates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/WallsAndGates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/WiggleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/WiggleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/WordSearchII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google/ZigzagIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/ZigzagIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestGetSubtreeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestGetSubtreeNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPostorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPostorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenInorderPreorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法竞赛入门经典/TreeDFSTraversalRecursion/GivenPreorderPostorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Google/Extension/Trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Google/Extension/Trie/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Google/Extension/Trie/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Google/Extension/Trie/TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/BinaryIndexedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/BinaryIndexedTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/MinimumWindowSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/MinimumWindowSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/RangeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/RangeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/SegmentTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/Trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -451,23 +74,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RangeSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/RangeSum.java">
+      <file leaf-file-name="FirstMissingNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="89">
+              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
               <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#2042#2043#0" expanded="true" />
-                <element signature="e#2121#2122#0" expanded="true" />
-                <element signature="method#getSumRecur#0;class#SegmentTree#0" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="method#updateSegmentTreeRecur#0;class#SegmentTree#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#getFirstMissingNumber_On#0;class#FirstMissingNumber#0" />
+                <element signature="method#segregate#0;class#FirstMissingNumber#0" />
+                <element signature="method#getFirstMissingNumber_On_On#0;class#FirstMissingNumber#0" />
+                <element signature="method#getFirstMissingNumber_Onlogn#0;class#FirstMissingNumber#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WellFormattedVerification.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -486,7 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>map</find>
       <find>permute</find>
       <find>ans</find>
       <find>StringBuiler</find>
@@ -514,11 +140,11 @@
       <find>Forest</find>
       <find>str</find>
       <find>distList</find>
-      <find />
+      <find>startIndex + ((endIndex - startIndex) &gt;&gt; 1))</find>
       <find>getMid</find>
+      <find>buffCnt</find>
     </findStrings>
     <replaceStrings>
-      <replace>cntBytes</replace>
       <replace>numBytes</replace>
       <replace>numOnes</replace>
       <replace>parent</replace>
@@ -546,8 +172,9 @@
       <replace>ForestLike</replace>
       <replace>y</replace>
       <replace>distArray</replace>
-      <replace />
+      <replace>getMid(startIndex, endIndex)</replace>
       <replace>getMidUtility</replace>
+      <replace>buffAimCnt</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/Contest</dir>
@@ -559,41 +186,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Visa/Pseudo.java" />
-        <option value="$PROJECT_DIR$/src/OS/ReadyQueueMax.java" />
-        <option value="$PROJECT_DIR$/src/OS/OSProcess.java" />
-        <option value="$PROJECT_DIR$/src/OS/ReadyQueue.java" />
-        <option value="$PROJECT_DIR$/src/OS/Scheduling.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/TreeLikeGraph.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/ForestLike.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/FriendCycle.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/Task.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/TaskByLevel.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/Interval.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/ZeroRectangle.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/BadgeAccess.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/IntervalRelated.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/DomainClick.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/Calculation.java" />
-        <option value="$PROJECT_DIR$/src/OS/ThreadRelated.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/WordCount.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Karat/CalculationReal.java" />
-        <option value="$PROJECT_DIR$/src/算法竞赛入门经典/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/Test/RegularExpression.java" />
-        <option value="$PROJECT_DIR$/src/Mock/GetMajority.java" />
-        <option value="$PROJECT_DIR$/src/Mock/ImportFiles.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/BlackRock/Share.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/BlackRock/testRound.java" />
         <option value="$PROJECT_DIR$/src/Mock/ParenthesisWithStar.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/WordMatrix.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/HitCounter.java" />
-        <option value="$PROJECT_DIR$/log.txt" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SimilaritySet.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/GmailDesign.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/TopKElements.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/EmployeeFreeTime.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubarraySumEqualsK.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/FindTheCelebrity.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/BlacklistPinTitle.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/LongestCommonPrefix.java" />
@@ -610,6 +212,31 @@
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PinArrangement.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SegmentTree.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/RangeSum.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/getOverlapped.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubstractOverlapped.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Editor.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/UniqueInterval.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/CompareFiles.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/ParititionToKEqualSumSubsets.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Read4API.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/ConvertSortedListToBST.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/WeighedInterval.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/WeighedIntervalIntersection.java" />
+        <option value="$PROJECT_DIR$/log.txt" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/BehaviorTree.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/TreeZigzagLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/LFUCache.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/Trie/Trie.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/DiameterOfBT.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PathSum.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PhoneNumberDictionary.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Rating.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java" />
       </list>
     </option>
   </component>
@@ -623,10 +250,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="327" />
-    <option name="y" value="69" />
-    <option name="width" value="1001" />
-    <option name="height" value="757" />
+    <option name="x" value="518" />
+    <option name="y" value="44" />
+    <option name="width" value="879" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -636,9 +263,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -651,14 +276,35 @@
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectiveHealth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CompanyOriented" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CompanyOriented" type="462c0819:PsiDirectoryNode" />
+              <item name="Stripe" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xinrong/IdeaProjects/Leetcode/src/Contest/ConstructBTfFromPreAndPostOrder.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xinrong/IdeaProjects/Leetcode/src/CompanyOriented/Pinterest/UniqueInterval.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -691,7 +337,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RangeSum">
+  <component name="RunManager" selected="Application.WellFormattedVerification">
+    <configuration name="BehaviorTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.BehaviorTree" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CompanyOriented.Pinterest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="BlacklistPinTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.BlacklistPinTitle" />
       <module name="Leetcode" />
@@ -703,8 +360,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Game24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.Game24" />
+    <configuration name="CompareFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.CompareFiles" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -714,8 +371,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MajorityInSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.MajorityInSorted" />
+    <configuration name="FirstMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Stripe.FirstMissingNumber" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CompanyOriented.Stripe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ParititionToKEqualSumSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.ParititionToKEqualSumSubsets" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -725,35 +393,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PinArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.PinArrangement" />
+    <configuration name="WellFormattedVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectiveHealth.WellFormattedVerification" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CompanyOriented.Pinterest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RangeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.RangeSum" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CompanyOriented.Pinterest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SimilaritySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.SimilaritySet" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CompanyOriented.Pinterest.*" />
+          <option name="PATTERN" value="CollectiveHealth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -800,19 +446,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SimilaritySet" />
-      <item itemvalue="Application.Game24" />
-      <item itemvalue="Application.MajorityInSorted" />
-      <item itemvalue="Application.PinArrangement" />
-      <item itemvalue="Application.RangeSum" />
+      <item itemvalue="Application.CompareFiles" />
+      <item itemvalue="Application.ParititionToKEqualSumSubsets" />
+      <item itemvalue="Application.BehaviorTree" />
+      <item itemvalue="Application.FirstMissingNumber" />
+      <item itemvalue="Application.WellFormattedVerification" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RangeSum" />
-        <item itemvalue="Application.PinArrangement" />
-        <item itemvalue="Application.MajorityInSorted" />
-        <item itemvalue="Application.Game24" />
-        <item itemvalue="Application.SimilaritySet" />
+        <item itemvalue="Application.WellFormattedVerification" />
+        <item itemvalue="Application.FirstMissingNumber" />
+        <item itemvalue="Application.BehaviorTree" />
+        <item itemvalue="Application.ParititionToKEqualSumSubsets" />
+        <item itemvalue="Application.CompareFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -914,12 +560,18 @@
       <workItem from="1538924477545" duration="6753000" />
       <workItem from="1538952021009" duration="8158000" />
       <workItem from="1539031819799" duration="15775000" />
-      <workItem from="1539114763789" duration="14859000" />
+      <workItem from="1539114763789" duration="17737000" />
+      <workItem from="1539152407714" duration="14340000" />
+      <workItem from="1539213300041" duration="18821000" />
+      <workItem from="1539314814025" duration="7301000" />
+      <workItem from="1539450346590" duration="16396000" />
+      <workItem from="1539615987916" duration="243000" />
+      <workItem from="1539616618787" duration="589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1182858000" />
+    <option name="totallyTimeSpent" value="1243426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -931,38 +583,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="69" width="1001" height="757" extended-state="0" />
+    <frame x="518" y="44" width="879" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.22919509" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.34575835" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23146623" side_tool="true" weight="0.24955437" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76853377" visible="true" weight="0.38799414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76853377" visible="true" weight="0.2713704" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23647712" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3492605" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32796487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" weight="0.36082473" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" weight="0.3953954" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3263342" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3263342" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32635254" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1132,173 +784,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="582" />
+      <option name="time" value="585" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/IntervalRelated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/FriendCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/ForestLike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#get01ParentTreeNodes#0;class#ForestLike#0" />
-            <element signature="docComment;field#childToParents#0;class#ForestLike#0" />
-            <element signature="method#hasCommonAncestor#0;class#ForestLike#0" />
-            <element signature="method#bfs#1;class#ForestLike#0" />
-            <element signature="docComment;method#farthestAncestor#0;class#ForestLike#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OS/ThreadRelated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/BadgeAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1373" column="21" selection-start-line="1373" selection-end-line="1374" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/ZeroRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/TaskByLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/Calculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/CalculationReal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInRotatedSortedArray.java" />
-    <entry file="file://$PROJECT_DIR$/src/算法竞赛入门经典/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KthLargestElementInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/RegularExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Karat/DomainClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mock/GetMajority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mock/ImportFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/BlackRock/testRound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OS/ReadyQueueMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OS/Scheduling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OS/ReadyQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyOriented/BlackRock/Share.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1313,24 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/SimilaritySet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/HitCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1345,12 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-724">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="method#topKFrequentWords#0;class#TopKElements#0" />
-            <element signature="method#getWords#0;class#TopKElements#0" />
-            <element signature="method#buildTrie#0;class#TopKElements#0" />
-            <element signature="class#Node#0;class#TopKElements#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1358,27 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/EmployeeFreeTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubarraySumEqualsK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1394,9 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1426,9 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1436,10 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="method#divide#0;class#DivideTwoIntegers#0" />
-            <element signature="method#divideRecur#0;class#DivideTwoIntegers#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1461,9 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="method#maxPathSum#0;class#BinaryTreeMaxPathSum#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1492,29 +927,216 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="method#getVisiblePins#0;class#PinArrangement#0" />
-            <element signature="method#binarySearch#0;class#PinArrangement#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubstractOverlapped.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/RangeSum.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="118" column="12" lean-forward="true" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/EmployeeFreeTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/CompareFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="69" selection-start-line="69" selection-end-line="71" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubarraySumEqualsK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/Editor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/ParititionToKEqualSumSubsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/Read4API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/UniqueInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/ConvertSortedListToBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/WeighedIntervalOverlapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/BehaviorTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/TreeZigzagLevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="45" lean-forward="true" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/LFUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Google/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Google/Extension/Trie/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/HitCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/DiameterOfBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/PathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/PhoneNumberDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1818">
+          <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/Rating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#2042#2043#0" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="method#getSumRecur#0;class#SegmentTree#0" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="method#updateSegmentTreeRecur#0;class#SegmentTree#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#getFirstMissingNumber_On#0;class#FirstMissingNumber#0" />
+            <element signature="method#segregate#0;class#FirstMissingNumber#0" />
+            <element signature="method#getFirstMissingNumber_On_On#0;class#FirstMissingNumber#0" />
+            <element signature="method#getFirstMissingNumber_Onlogn#0;class#FirstMissingNumber#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>

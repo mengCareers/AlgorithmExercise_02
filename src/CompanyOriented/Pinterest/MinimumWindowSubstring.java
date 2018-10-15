@@ -1,43 +1,40 @@
 package CompanyOriented.Pinterest;
 
 public class MinimumWindowSubstring {
+
+    /*
+
+     */
     public String minWindow(String s, String t) {
 
-        if (s == null || t == null || s.length() == 0)
+        if (s == null || t == null || s.length() == 0 || t.length() == 0 || s.length() < t.length())
             return "";
 
-        int n = s.length(), j = 0, minLength = Integer.MAX_VALUE;
-        String minWindow = "";
+        int slen = s.length(), numToMatch = t.length(), j = 0, minLen = Integer.MAX_VALUE, resultStart = 0;
+        int[] tMap = new int[256];
 
-        int[] tMap = new int[256], curMap = new int[256];
-        for (char ch : t.toCharArray()) {
+        for (char ch : t.toCharArray())
             tMap[ch]++;
-        }
 
-        for (int i = 0; i < n; i++) {
-            while (j <= n) {
-                if (containsAll(curMap, tMap)) {
-                    if (minLength > j - i + 1) {
-                        minLength = j - i + 1;
-                        minWindow = s.substring(i, j);
-                    }
-                    break;
+        for (int i = 0; i < slen; i++) {
+            while (j <= slen && numToMatch != 0) {
+                if (j < slen) {
+                    tMap[s.charAt(j)]--;
+                    if (tMap[s.charAt(j)] + 1 > 0)
+                        numToMatch--;
                 }
-                if (j < n)
-                    curMap[s.charAt(j)]++;
                 j++;
             }
-            curMap[s.charAt(i)]--;
+            if (numToMatch == 0) {
+                if (j - i < minLen) {
+                    minLen = j - i;
+                    resultStart = i;
+                }
+            }
+            tMap[s.charAt(i)]++;
+            if (tMap[s.charAt(i)] - 1 == 0)
+                numToMatch++;
         }
-
-        return minWindow;
-    }
-
-    private boolean containsAll(int[] sMap, int[] tMap) {
-        for (int i = 0; i < 256; i++) {
-            if (tMap[i] != 0 && sMap[i] < tMap[i])
-                return false;
-        }
-        return true;
+        return minLen == Integer.MAX_VALUE ? "" : s.substring(resultStart, resultStart + minLen);
     }
 }
