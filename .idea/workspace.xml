@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193319f1-b8b0-4514-a76f-f575e365f8a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/BehaviorTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/CompareFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/ConvertSortedListToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/DiameterOfBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/LFUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/ParititionToKEqualSumSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PhoneNumberDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Read4API.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubstractOverlapped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/TreeZigzagLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/UniqueInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/WeighedIntervalOverlapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/CircularLLRemoveEveryOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/DoublyLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/MinimumCostToHireKWorkers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/SmallestTopTermsSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS/EvaluateDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/NumberIsLowerCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Google/Extension/Trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Google/Extension/Trie/Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Google/Extension/Trie/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Google/Extension/Trie/TrieNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/BinaryIndexedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/BinaryIndexedTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/MinimumWindowSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/MinimumWindowSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/RangeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/RangeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Pinterest/SegmentTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Google/Extension/Trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CollectiveHealth/WellFormattedVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CollectiveHealth/WellFormattedVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Stripe/ArrOfMaps$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Stripe/ArrOfMaps$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Stripe/ArrOfMaps$RecordComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Stripe/ArrOfMaps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Stripe/ArrOfMaps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Stripe/FirstMissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/CompanyOriented/Stripe/FirstMissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,28 +61,47 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirstMissingNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java">
+    <leaf>
+      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/Human.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="431">
+              <caret line="38" lean-forward="true" selection-start-line="6" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getFirstMissingNumber_On#0;class#FirstMissingNumber#0" />
-                <element signature="method#segregate#0;class#FirstMissingNumber#0" />
-                <element signature="method#getFirstMissingNumber_On_On#0;class#FirstMissingNumber#0" />
-                <element signature="method#getFirstMissingNumber_Onlogn#0;class#FirstMissingNumber#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WellFormattedVerification.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java">
+      <file leaf-file-name="Buyer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/Buyer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="300">
+              <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Callstack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/Callstack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/BinaryTen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -186,17 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CompanyOriented/BlackRock/Share.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/BlackRock/testRound.java" />
-        <option value="$PROJECT_DIR$/src/Mock/ParenthesisWithStar.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/WordMatrix.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/HitCounter.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SimilaritySet.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/GmailDesign.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/TopKElements.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/EmployeeFreeTime.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/SubarraySumEqualsK.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/FindTheCelebrity.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/BlacklistPinTitle.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/MaxStack.java" />
@@ -234,9 +230,20 @@
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PathSum.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/PhoneNumberDictionary.java" />
         <option value="$PROJECT_DIR$/src/CompanyOriented/Pinterest/Rating.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java" />
-        <option value="$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java" />
         <option value="$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java" />
+        <option value="$PROJECT_DIR$/src/DFS/EvaluateDivision.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/DoublyLLRemoveTarget.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/CircularLLRemoveEveryOther.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/SmallestTopTermsSet.java" />
+        <option value="$PROJECT_DIR$/src/Test/NumberIsLowerCase.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/MinimumCostToHireKWorkers.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestStatic.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTen.java" />
+        <option value="$PROJECT_DIR$/src/Test/Callstack.java" />
+        <option value="$PROJECT_DIR$/src/Test/Human.java" />
+        <option value="$PROJECT_DIR$/src/Test/Buyer.java" />
       </list>
     </option>
   </component>
@@ -250,10 +257,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="518" />
-    <option name="y" value="44" />
-    <option name="width" value="879" />
-    <option name="height" value="811" />
+    <option name="x" value="551" />
+    <option name="y" value="23" />
+    <option name="width" value="889" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -280,12 +287,6 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CollectiveHealth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CompanyOriented" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,12 +296,18 @@
               <item name="CompanyOriented" type="462c0819:PsiDirectoryNode" />
               <item name="Stripe" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,18 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WellFormattedVerification">
-    <configuration name="BehaviorTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.BehaviorTree" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CompanyOriented.Pinterest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Buyer">
     <configuration name="BlacklistPinTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.BlacklistPinTitle" />
       <module name="Leetcode" />
@@ -360,13 +356,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CompareFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.CompareFiles" />
+    <configuration name="Buyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Buyer" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CompanyOriented.Pinterest.*" />
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CircularLLRemoveEveryOther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Google.PhoneInterview.CircularLLRemoveEveryOther" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CompanyOriented.Google.PhoneInterview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,24 +389,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ParititionToKEqualSumSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanyOriented.Pinterest.ParititionToKEqualSumSubsets" />
+    <configuration name="NumberIsLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.NumberIsLowerCase" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CompanyOriented.Pinterest.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="WellFormattedVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectiveHealth.WellFormattedVerification" />
+    <configuration name="TestStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestStatic" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectiveHealth.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,19 +453,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CompareFiles" />
-      <item itemvalue="Application.ParititionToKEqualSumSubsets" />
-      <item itemvalue="Application.BehaviorTree" />
       <item itemvalue="Application.FirstMissingNumber" />
-      <item itemvalue="Application.WellFormattedVerification" />
+      <item itemvalue="Application.CircularLLRemoveEveryOther" />
+      <item itemvalue="Application.NumberIsLowerCase" />
+      <item itemvalue="Application.TestStatic" />
+      <item itemvalue="Application.Buyer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WellFormattedVerification" />
+        <item itemvalue="Application.Buyer" />
+        <item itemvalue="Application.TestStatic" />
         <item itemvalue="Application.FirstMissingNumber" />
-        <item itemvalue="Application.BehaviorTree" />
-        <item itemvalue="Application.ParititionToKEqualSumSubsets" />
-        <item itemvalue="Application.CompareFiles" />
+        <item itemvalue="Application.NumberIsLowerCase" />
+        <item itemvalue="Application.CircularLLRemoveEveryOther" />
       </list>
     </recent_temporary>
   </component>
@@ -566,12 +573,17 @@
       <workItem from="1539314814025" duration="7301000" />
       <workItem from="1539450346590" duration="16396000" />
       <workItem from="1539615987916" duration="243000" />
-      <workItem from="1539616618787" duration="589000" />
+      <workItem from="1539616618787" duration="898000" />
+      <workItem from="1540066350968" duration="8187000" />
+      <workItem from="1540162303164" duration="6238000" />
+      <workItem from="1540227247148" duration="162000" />
+      <workItem from="1540238038941" duration="606000" />
+      <workItem from="1540270179828" duration="3406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1243426000" />
+    <option name="totallyTimeSpent" value="1262334000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,31 +595,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="518" y="44" width="879" height="811" extended-state="0" />
-    <editor active="true" />
+    <frame x="551" y="23" width="889" height="877" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.34575835" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49861112" weight="0.34371108" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23146623" side_tool="true" weight="0.24955437" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23397075" side_tool="true" visible="true" weight="0.249066" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76853377" visible="true" weight="0.2713704" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32984293" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76602924" visible="true" weight="0.249066" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3492605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24184477" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" weight="0.36082473" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" weight="0.3595658" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3263342" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,6 +627,37 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32635254" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76853377" visible="true" weight="0.249066" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49835256" weight="0.3595658" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32984293" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23146623" side_tool="true" weight="0.24955437" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32635254" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49930555" weight="0.34464043" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3263342" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2694257" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -788,78 +830,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/BlackRock/Share.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mock/ParenthesisWithStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/SimilaritySet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/GmailDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/TopKElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-724">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/FindTheCelebrity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/TwentyFourGame.java" />
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/BlacklistPinTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/MaxStack.java" />
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/BasicCalculatorII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1105,13 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1818">
-          <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Pinterest/Rating.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1119,24 +1082,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/EvaluateDivision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Google/EvaluateDivision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/CircularLLRemoveEveryOther.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/SmallestTopTermsSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/NumberIsLowerCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/MinimumCostToHireKWorkers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Google/PhoneInterview/DoublyLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Stripe/FirstMissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="23">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyOriented/Stripe/ArrOfMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="116" column="2" lean-forward="true" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Callstack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="38" lean-forward="true" selection-start-line="6" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getFirstMissingNumber_On#0;class#FirstMissingNumber#0" />
-            <element signature="method#segregate#0;class#FirstMissingNumber#0" />
-            <element signature="method#getFirstMissingNumber_On_On#0;class#FirstMissingNumber#0" />
-            <element signature="method#getFirstMissingNumber_Onlogn#0;class#FirstMissingNumber#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollectiveHealth/WellFormattedVerification.java">
+    <entry file="file://$PROJECT_DIR$/src/Test/Buyer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="300">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

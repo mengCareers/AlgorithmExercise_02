@@ -52,7 +52,7 @@ public class WellFormattedVerification {
     }
 
     public static void main(String[] args) {
-        String str = "()";
-        System.out.println(isWellFormatted(str));
+        String str = "I love bagel(with cheese))";
+        System.out.println(isWellFormatted_1(str));
     }
 }

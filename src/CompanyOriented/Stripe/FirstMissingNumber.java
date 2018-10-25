@@ -6,15 +6,14 @@ import java.util.*;
 
 /*
 positive int, return 1st missing one (starting from 1)
-Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
+
+Given an array of integers, find the first missing positive integer in linear time and constant space.
+In other words, find the lowest positive integer that does not exist in the array.
+The array can contain duplicates and negative numbers as well.
 
 
  */
-/*
-for 1... check in nums, like two pointers
 
-Time complexity: O(nlogn + n) which is O(nlogn)
- */
 public class FirstMissingNumber {
 
     /*
@@ -24,7 +23,7 @@ public class FirstMissingNumber {
      */
     // Mark arr[i] as visited by making arr[arr[i] - 1] negative.
 
-    public static int getFirstMissingNumber_On(int[] nums) { // 3 1 -5
+    public static int getFirstMissingNumber_On(int[] nums) { // 1 2 3 nums[0] = 1
         int start = segregate(nums), j = 0; // -1 -2 -3 1
         int[] positiveNums = new int[nums.length - start];
         for (int i = start; i < nums.length; i++) {
@@ -108,7 +107,7 @@ public class FirstMissingNumber {
 
         System.out.println(instance.allocate("apibox"));
         System.out.println(instance.allocate("apibox"));
-        instance.deallocate("apibox", 1);
+        instance.deallocate("apibo", 3);
         System.out.println(instance.allocate("apibox"));
         System.out.println(instance.allocate("sitebox"));
 
