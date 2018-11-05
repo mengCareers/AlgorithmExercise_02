@@ -98,7 +98,7 @@ public class FirstMissingNumber {
     public void deallocate(String serverType, int num) { // Needs to delete randomly.
         if (!map.containsKey(serverType))
             return;
-        map.get(serverType).remove((Integer) num);
+        map.get(serverType).remove(num);
     }
 
     public static void main(String[] args) {

@@ -40,7 +40,7 @@ public class GmailDesign {
         dummyTail = new Node("", "");
         dummyHead.next = dummyTail;
         dummyTail.next = dummyHead;
-        this.capacity = capacity;
+        GmailDesign.capacity = capacity;
     }
 
     /*

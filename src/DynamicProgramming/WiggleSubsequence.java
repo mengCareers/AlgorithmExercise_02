@@ -10,7 +10,6 @@ public class WiggleSubsequence {
             return 0;
 
         int n = nums.length, maxLength = 0;
-        ;
         if (n < 2) {
             return n;
         }

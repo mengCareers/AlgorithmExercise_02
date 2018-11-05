@@ -53,10 +53,7 @@ public class Game24 {
     private boolean backtrack_wo_parenthesis(List<Double> numlist, boolean isLowerPriority) {
 
         if (numlist.size() == 1) {
-            if (Math.abs(numlist.get(0) - 24) <= DIFF_ACCEPTABLE) {
-                return true;
-            }
-            return false;
+            return Math.abs(numlist.get(0) - 24) <= DIFF_ACCEPTABLE;
         }
 
         for (int i = 0; i < numlist.size(); i++) {
@@ -104,10 +101,7 @@ public class Game24 {
     private boolean backtrack_w_parenthesis(List<Double> numlist) {
 
         if (numlist.size() == 1) {
-            if (Math.abs(numlist.get(0) - 24) <= DIFF_ACCEPTABLE) {
-                return true;
-            }
-            return false;
+            return Math.abs(numlist.get(0) - 24) <= DIFF_ACCEPTABLE;
         }
 
         for (int i = 0; i < numlist.size(); i++) {

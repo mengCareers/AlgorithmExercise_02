@@ -28,10 +28,7 @@ public class ASCIIDecoding {
         if (num >= 97 && num <= 122) {
             return true;
         }
-        if (num == 32) {
-            return true;
-        }
-        return false;
+        return num == 32;
     }
 
     private boolean decode(String str) {

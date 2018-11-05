@@ -10,86 +10,74 @@ public class BadgeAccess {
     public static void main(String[] args) {
         BadgeAccess inst = new BadgeAccess();
         String[][] accesses = {{"Martha", "exit"}, {"Paul", "enter"}, {"Martha", "enter"}};
-        List<List<String>> result = inst.find(accesses);
-        String[][] badge_records = {{"Paul", "1355"}, {"Jen", "1910"}, {"John", "830"}, {"Paul", "1315"}, {"John", "835"},
-                {"Paul", "1405"}, {"John", "930"}, {"John", "855"}, {"John", "915"}, {"Paul", "1630"}, {"John", "1630"}};
+        List<List<String>> result = inst.findMismatchedEntries(accesses);
+        System.out.println(result);
+        String[][] badge_records = {{"Paul", "1355"}, {"Jen", "1910"},
+                {"John", "830"}, {"Paul", "1315"}, {"John", "835"},
+                {"Paul", "1405"}, {"John", "930"}, {"John", "855"},
+                {"John", "915"}, {"Paul", "1630"}, {"John", "1630"}};
         Map<String, List<Integer>> resultMap = inst.findUnusuallyOften(badge_records);
         System.out.println(resultMap);
     }
 
-    /**
-     * find a list of people missing "enter", and a list of people missing "end"
-     *
-     * @param accesses
-     * @return
-     */
-    public List<List<String>> find(String[][] accesses) {
+    private final static String EXIT = "exit";
 
+    public List<List<String>> findMismatchedEntries(String[][] accesses) {
+
+        List<String> missExit = new ArrayList<>(); // List of employees who didn't use badge while exiting.
+        List<String> missEnter = new ArrayList<>(); // List of employees who didn't use badge while entering
         List<List<String>> result = new ArrayList<>();
-        result.add(new ArrayList<>());
-        result.add(new ArrayList<>());
-        Map<String, Integer> map = new HashMap<>(); // key: name, value: enter ++, exit --
-        Set<String> invalid = new HashSet<>();
+        Map<String, Integer> map = new HashMap<>(); // key: name, value: score.
+        Set<String> mismatchedEmployees = new HashSet<>();
+
         for (String[] access : accesses) {
             String name = access[0];
-            if (invalid.contains(name)) {
+            if (mismatchedEmployees.contains(name))
                 continue;
-            }
-            String verb = access[1];
-            map.put(name, (verb.equals("exit")) ? (map.getOrDefault(name, 0) - 1) : (map.getOrDefault(name, 0) + 1)); // assume only enter or exit
-            if (map.get(name) > 1 || map.get(name) < 0) // invalid
-                invalid.add(name);
-        }
-
-        for (String name : map.keySet()) {
-            if (map.get(name) > 0) {
-                result.get(0).add(name);
-                continue;
-            }
-            if (map.get(name) < 0) {
-                result.get(1).add(name);
+            map.put(name, access[1].equals(EXIT) ? map.getOrDefault(name, 0) - 1 : map.getOrDefault(name, 0) + 1);
+            if (map.get(name) < 0 || map.get(name) > 1) {
+                mismatchedEmployees.add(name);
             }
         }
-
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            if (entry.getValue() < 0)
+                missEnter.add(entry.getKey());
+            else if (entry.getValue() > 0)
+                missExit.add(entry.getKey());
+        }
+        result.add(missEnter);
+        result.add(missExit);
         return result;
     }
 
-    Map<String, List<Integer>> map;
-    Map<String, List<Integer>> result;
-
-    public Map<String, List<Integer>> findUnusuallyOften(String[][] badge_records) {
-
-        result = new HashMap<>(); // key: name of unusual
-        map = new HashMap<>(); // key: name, value: list of times
-        for (String[] record : badge_records) {
-            String name = record[0];
-            int time = Integer.parseInt(record[1]);
+    public Map<String, List<Integer>> findUnusuallyOften(String[][] accesses) {
+        Map<String, List<Integer>> result = new HashMap<>();
+        Map<String, List<Integer>> map = new HashMap<>(); // Key: name, value: list of access time.
+        String name;
+        for (String[] access : accesses) {
+            name = access[0];
             map.putIfAbsent(name, new ArrayList<>());
-            map.get(name).add(time);
+            map.get(name).add(Integer.parseInt(access[1]));
         }
-
-        for (String name : map.keySet()) {
-            checkUnusual(name);
-        }
-
-        return result;
-    }
-
-    private void checkUnusual(String name) {
-        List<Integer> times = map.get(name);
-        Collections.sort(times);
-        Set<Integer> accessTimeSet = new HashSet<>();
-        for (int i = 0; i < times.size() - 2; i++) {
-            int index = search(times, i, times.get(i) + 100);
-            if (index < times.size() && index - i >= 3) {
-                for (int j = i; j < index; j++) {
-                    accessTimeSet.add(times.get(j));
+        List<Integer> list, resultTime;
+        for (Map.Entry<String, List<Integer>> entry : map.entrySet()) {
+            list = entry.getValue();
+            Collections.sort(list);
+            for (int i = 0; i < list.size() - 2; i++) {
+                // The index of the first number which is >= list.get(i) + 100.
+                int index = search(list, i, list.get(i) + 100);
+                if (index - i >= 3) {
+                    resultTime = new ArrayList<>();
+                    for (int j = i; j < index; j++)
+                        resultTime.add(list.get(j));
+                    result.put(entry.getKey(), resultTime);
+                    break;
                 }
             }
         }
-        if (!accessTimeSet.isEmpty())
-            result.put(name, new ArrayList<>(accessTimeSet));
+        return result;
     }
+
 
     /**
      * The first index (beginning at start) that with value >=  target

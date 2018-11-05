@@ -24,7 +24,7 @@ public class SimpleTextQuery {
         }
 
         words = phrase.split(" ");
-        Set<Integer> tmpSet = wordToSentenceId.get(words[0]);;
+        Set<Integer> tmpSet = wordToSentenceId.get(words[0]);
 
         for (int i = 1; i < words.length; i++) {
             tmpSet.retainAll(wordToSentenceId.get(words[i]));

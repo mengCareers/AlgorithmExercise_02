@@ -113,10 +113,7 @@ public class 最少着色问题 {
     }
 
     private boolean isConflict(int[] section1, int[] section2) {
-        if (section1[1] > section2[0]) {
-            return true;
-        }
-        return false;
+        return section1[1] > section2[0];
     }
 
 

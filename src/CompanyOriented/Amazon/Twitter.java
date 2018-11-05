@@ -82,7 +82,7 @@ public class Twitter {
         if (!followerToFollowees.containsKey(followerId)) {
             followerToFollowees.put(followerId, new LinkedList<>());
         }
-        if (!followerToFollowees.get(followerId).contains((Integer) followeeId)) {
+        if (!followerToFollowees.get(followerId).contains(followeeId)) {
             followerToFollowees.get(followerId).add(followeeId);
         }
     }

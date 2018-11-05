@@ -41,7 +41,7 @@ public class HamiltonianCycle {
                     if (hasHamiltonianCycleFrom(graph, neighborVertex, visited)) {
                         return true;
                     }
-                    visited.remove((Integer) neighborVertex);
+                    visited.remove(neighborVertex);
                 }
             }
         }

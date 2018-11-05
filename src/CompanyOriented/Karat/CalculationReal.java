@@ -64,98 +64,153 @@ class CalculationReal {
         String expression4 = "255"; // 255
         String expression5 = "600+9-12"; //597
         String expression6 = "1-2-3-4"; // -8
+//        System.out.println(calculate(expression3));
+//        System.out.println(calculate(expression4));
+//        System.out.println(calculate(expression5));
+//        System.out.println(calculate(expression6));
 
         String expression1 = "5+16-((9-6)-(4-2))"; // 20
-        String expression2 = "(5)-(8-2)"; // 20
+        String expression2 = "(5)-(8-2)"; // -1
+//        System.out.println(calculateWithParenthesis(expression1));
+//        System.out.println(calculateWithParenthesis(expression2));
+
 
         String expression = "(e+3)-(pressure+temperature)+2";
-//        String expression = "e-ay+ey+cy";
+        expression = "-(1-c-(1-a+(1+a)+b))";
         Map<String, Integer> variables = new HashMap<>();
         variables.put("e", 8);
         variables.put("pressure", 7);
 
 
-
-        String result = calculate(expression, variables);
+        String result = calculateWithParenthesis(expression, variables);
         System.out.println("result: " + result);
     }
-    // may cause overflow
 
 
-    public static int i;
-    public static StringBuilder charRemained;
+    private static StringBuilder toAppend;
+    private static int i;
 
-    public static String calculate(String expression, Map<String, Integer> map) {
-        // assume input valid
+    public static String calculateWithParenthesis(String expression, Map<String, Integer> dictionary) {
         i = 0;
-        charRemained = new StringBuilder();
-        int result = calculateRecurUtil("(" + expression + ")", map);
-
-        return (result == 0) ? charRemained.substring(1) : result + charRemained.toString(); // 1-1+c +c c
+        toAppend = new StringBuilder();
+        int result = calculateRecur("(" + expression + ")", dictionary, 1);
+        return result + toAppend.toString();
     }
 
-    private static int calculateRecurUtil(String expression, Map<String, Integer> map) {
-        int preSign = 1, preNumber = 0, result = 0;
+    private static int calculateRecur(String expression, Map<String, Integer> dictionary, int savePreSign) {
+        int preSign = 1, preNum = 0, result = 0;
 
         while (i < expression.length()) {
-            switch (expression.charAt(i)) {
+            char ch = expression.charAt(i);
+            switch (ch) {
                 case '+':
-                    result += preSign * preNumber;
+                    result += preNum * preSign;
+                    preNum = 0;
                     preSign = 1;
-                    preNumber = 0;
                     i++;
                     break;
                 case '-':
-                    result += preSign * preNumber;
+                    result += preNum * preSign;
+                    preNum = 0;
                     preSign = -1;
-                    preNumber = 0;
                     i++;
                     break;
                 case '(':
                     i++;
-                    result += preSign * calculateRecurUtil(expression, map); // enter
+                    result += preSign * calculateRecur(expression, dictionary, savePreSign * preSign);
+                    preSign = 1;
+                    preNum = 0;
+                    i++;
                     break;
                 case ')':
-                    i++;
-                    result += preSign * preNumber; // for the last section within ()
-                    return result;
-                default:  // lower-characters string, char, ch if it is
-                    char ch = expression.charAt(i);
-
-                    if (Character.isLetter(ch)) { // keys of map are single ()
-                        if (i + 1 < expression.length() && !Character.isLetter(expression.charAt(i + 1))) {
-                            if (map.containsKey(ch + "")) {
-                                preNumber = map.get(ch + "");
-                            } else { // char
-                                charRemained.append(preSign == 1 ? '+' : '-').append(ch);
-                            }
-                            i++;
-                        } else {
-                            int j = i;
-                            while (j + 1 < expression.length() && Character.isLetter(expression.charAt(j + 1))) {
-                                j++;
-                            }
-                            String str = expression.substring(i, j + 1);
-                            if (map.containsKey(str)) {
-                                preNumber = map.get(str);
-                            } else {
-                                charRemained.append(preSign == 1 ? '+' : '-').append(str);
-                            }
-                            i = j + 1;
-                        }
-                    } else {
-                        preNumber = preNumber * 10 + (expression.charAt(i) - '0');
+                    return result += preNum * preSign;
+                default:
+                    if (Character.isDigit(ch)) {
+                        preNum = preNum * 10 + (ch - '0');
                         i++;
+                    } else {
+                        StringBuilder preStr = new StringBuilder();
+                        preStr.append(ch);
+                        i++;
+                        while (i < expression.length() && Character.isLetter(expression.charAt(i))) {
+                            preStr.append(expression.charAt(i));
+                            i++;
+                        }
+                        if (dictionary.containsKey(preStr.toString())) {
+                            preNum = dictionary.get(preStr.toString());
+                        } else {
+                            toAppend.append((savePreSign * preSign == 1 ? "+" : "-")).append(preStr);
+                            preSign = 1;
+                        }
                     }
+
             }
         }
-
-        if (preNumber != 0) {
-            result += preSign * preNumber;
-        }
-
         return result;
+    }
 
+
+    public static int calculate(String expression) {
+        int preSign = 1, preDigit = 0, result = 0;
+        for (char ch : expression.toCharArray()) {
+            switch (ch) {
+                case '-':
+                    result += preSign * preDigit;
+                    preDigit = 0;
+                    preSign = -1;
+                    break;
+                case '+':
+                    result += preSign * preDigit;
+                    preDigit = 0;
+                    preSign = 1;
+                    break;
+                default: {
+                    preDigit = preDigit * 10 + (ch - '0');
+                }
+            }
+        }
+        result += preDigit * preSign;
+        return result;
+    }
+
+    public static int calculateWithParenthesis(String expression) {
+        i = 0;
+        return calculateRecur("(" + expression + ")");
+    }
+
+    private static int calculateRecur(String expression) {
+        int preSign = 1, preNum = 0, result = 0;
+        char[] arr = expression.toCharArray();
+        while (i < arr.length) {
+            switch (arr[i]) {
+                case '+':
+                    result += preSign * preNum;
+                    preSign = 1;
+                    preNum = 0;
+                    i++;
+                    break;
+                case '-':
+                    result += preSign * preNum;
+                    preSign = -1;
+                    preNum = 0;
+                    i++;
+                    break;
+                case '(':
+                    i++;
+                    result += preSign * calculateRecur(expression);
+                    preSign = 1;
+                    preNum = 0;
+                    i++;
+                    break;
+                case ')':
+                    result += preSign * preNum;
+                    return result;
+                default:
+                    preNum = preNum * 10 + (arr[i] - '0');
+                    i++;
+            }
+        }
+        return result;
     }
 
 

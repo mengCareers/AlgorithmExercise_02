@@ -17,7 +17,7 @@ class BinaryIndexedTree {
 
     public BinaryIndexedTree(int[] nums) {
         e = new int[nums.length + 1];
-        this.nums = nums;
+        BinaryIndexedTree.nums = nums;
         buildBIT();
     }
 
@@ -61,7 +61,7 @@ class SegmentTree {
     public SegmentTree(int[] nums) {
         int maxSize = 1000; // Number of nodes in tree.
         sumSegmentTree = new int[maxSize];
-        this.nums = nums;
+        SegmentTree.nums = nums;
         buildSegmentTree(1, 0, nums.length - 1);
     }
 

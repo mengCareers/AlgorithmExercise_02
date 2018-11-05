@@ -3,62 +3,57 @@ package CompanyOriented.Karat;
 import java.util.*;
 
 public class TaskByLevel {
-    /*
-           cook - eat
-    sleep - study -|
-     */
+
     public static void main(String[] args) {
         TaskByLevel inst = new TaskByLevel();
         String[][] tasks = {{"cook", "eat"}, {"study", "eat"}, {"sleep", "study"}};
-        List<List<String>> result = inst.taskSchedule(tasks);
+        List<List<String>> result = inst.taskByLevel(tasks);
         System.out.println(result);
     }
 
-    public List<List<String>> taskSchedule(String[][] tasks) {
+    public List<List<String>> taskByLevel(String[][] edges) {
 
-        List<List<String>> result = new ArrayList<>();
         Map<String, Integer> inDegree = new HashMap<>();
         Map<String, Set<String>> outList = new HashMap<>();
 
-        for (String[] task : tasks) {
-            String u = task[0];
-            String v = task[1];
+        for (String[] edge : edges) {
+            String u = edge[0];
+            String v = edge[1];
             inDegree.put(v, inDegree.getOrDefault(v, 0) + 1);
             inDegree.put(u, inDegree.getOrDefault(u, 0));
             outList.putIfAbsent(u, new HashSet<>());
+            outList.putIfAbsent(v, new HashSet<>());
             outList.get(u).add(v);
         }
 
-        List<String> level = new ArrayList<>();
-        Deque<String> queue = new ArrayDeque<>();
-        for (String node : inDegree.keySet()) {
-            if (inDegree.get(node) == 0) {
-                queue.offer(node);
-                level.add(node);
+        Queue<String> queue = new LinkedList<>();
+
+        for (Map.Entry<String, Integer> entry : inDegree.entrySet()) {
+            if (entry.getValue() == 0) {
+                queue.offer(entry.getKey());
             }
         }
-        if (!level.isEmpty())
-            result.add(new ArrayList<>(level));
+
+        List<List<String>> result = new ArrayList<>();
+        List<String> curResult;
+        String curr;
 
         while (!queue.isEmpty()) {
-            int levelSize = queue.size();
-            level.clear();
-            for (int i = 0; i < levelSize; i++) {
-                String node = queue.poll();
-                if (!outList.containsKey(node))
-                    continue;
-                for (String neighbour : outList.get(node)) {
-                    inDegree.put(neighbour, inDegree.get(neighbour) - 1);
-                    if (inDegree.get(neighbour) == 0) {
-                        queue.offer(neighbour);
-                        level.add(neighbour);
+            int size = queue.size();
+            curResult = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                curr = queue.poll();
+                curResult.add(curr);
+                for (String adj : outList.get(curr)) {
+                    inDegree.put(adj, inDegree.get(adj) - 1);
+                    if (inDegree.get(adj) == 0) {
+                        queue.offer(adj);
                     }
                 }
             }
-            if (!level.isEmpty())
-                result.add(new ArrayList<>(level));
+            result.add(curResult);
         }
-
         return result;
     }
+
 }

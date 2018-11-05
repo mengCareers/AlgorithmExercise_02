@@ -36,7 +36,7 @@ public class TreeAfterErased {
         scanner = new Scanner(System.in);
         System.out.println("T if want to erase " + node.val);
         String answer = scanner.nextLine();
-        return (answer.equals("T")) ? true : false;
+        return answer.equals("T");
     }
 
     public static void main(String[] args) {

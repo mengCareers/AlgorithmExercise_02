@@ -2,99 +2,162 @@ package CompanyOriented.Karat;
 
 import java.util.*;
 
-/**
- * friend cycle
- */
+
 public class ZeroRectangle {
 
     public static void main(String[] args) {
-        int[] u = {1, 2};
-        List<int[]> list = new ArrayList<>();
-        list.add(u);
-        System.out.println(list.get(0)[0]);
-        u = new int[]{3, 4};
-        list.add(u);
-        System.out.println(list.get(0)[0]);
-        System.out.println(list.get(1)[0]);
+        ZeroRectangle zeroRectangle = new ZeroRectangle();
+        int[][] matrix = {
+                {1, 1, 1, 1, 1, 1},
+                {0, 0, 1, 0, 1, 1},
+                {0, 0, 1, 0, 1, 0},
+                {1, 1, 1, 0, 1, 0},
+                {1, 0, 0, 1, 1, 1}};
+
+        System.out.println(zeroRectangle.getZeroRectangles(matrix));
+        matrix = new int[][]{
+                {1, 1, 1, 1, 1, 1},
+                {0, 1, 1, 1, 1, 1},
+                {0, 0, 0, 1, 1, 1},
+                {1, 1, 1, 1, 1, 1},
+                {1, 0, 0, 1, 1, 1}
+        };
+        System.out.println(zeroRectangle.getZeroConnectedComponents(matrix));
     }
 
-    boolean[][] visited;
-    List<int[]> endPoints;// [startPoint, endPoint]
-    List<List<int[]>> shapeList; // all points of each shape in list
+    private int[][] directionsRectangle = {{0, 1}, {1, 0}};
+    private int[][] directionsComponent = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
-    public void rectangle(int[][] matrix) {
-        endPoints = new ArrayList<>();
-        shapeList = new ArrayList<>();
-        int rows = matrix.length, cols = matrix[0].length;
-        visited = new boolean[rows][cols];
+    private static int rows, cols;
+
+    // Q1
+    public List<List<Integer>> getZeroRectangles(int[][] matrix) {
+
+        List<List<Integer>> result = new ArrayList<>(); // Result list.
+        cols = matrix[0].length;
+        rows = matrix.length;
+        Set<Integer> visited = new HashSet<>(); // Cells visited.
+
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                if (matrix[i][j] == 0 && !visited[i][j]) {
-                    List<int[]> temp = new ArrayList<>();
-                    endPoints.add(new int[]{i, j});
-                    bfs(matrix, i, j, temp);
+                if (matrix[i][j] == 0 && !visited.contains(encode(i, j))) {
+                    List<Integer> orders = bfsTraversal(encode(i, j), visited, matrix, directionsRectangle);
+                    int[] downright = decode(orders.get(orders.size() - 1));
+                    result.add(new ArrayList<>(Arrays.asList(i, j, downright[0], downright[1])));
                 }
             }
         }
 
+        return result;
     }
 
-    int[][] dirsForStartEnd = {{0, 1}, {1, 0}};
-    int[][] dirsForAll = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    // Q2
+    public List<List<Integer>> getZeroConnectedComponents(int[][] matrix) {
+        List<List<Integer>> result = new ArrayList<>(); // Result list.
+        cols = matrix[0].length;
+        rows = matrix.length;
+        Set<Integer> visited = new HashSet<>(); // Cells visited.
 
-    private void bfs(int[][] matrix, int x, int y, List<int[]> nodesList) {
-        Queue<int[]> queue = new LinkedList<>();
-        queue.offer(new int[]{x, y});
-        visited[x][y] = true;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (matrix[i][j] == 0 && !visited.contains(encode(i, j))) {
+                    List<Integer> orders = bfsTraversal(encode(i, j), visited, matrix, directionsComponent);
+                    result.add(buildResult(orders));
+                }
+            }
+        }
+
+        return result;
+    }
+
+    private List<Integer> buildResult(List<Integer> orders) {
+        List<Integer> result = new ArrayList<>();
+        int[] coordinate;
+        for (int order : orders) {
+            coordinate = decode(order);
+            result.add(coordinate[0]);
+            result.add(coordinate[1]);
+        }
+        return result;
+    }
+
+    private List<Integer> bfsTraversal(int startOrder, Set<Integer> visited, int[][] matrix, int[][] directions) {
+
+        List<Integer> orders = new ArrayList<>();
+
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(startOrder);
+        visited.add(startOrder);
+
         while (!queue.isEmpty()) {
-            int[] curNode = queue.poll();
-            nodesList.add(curNode);
-            for (int[] dir : dirsForStartEnd) {
-                int nx = curNode[0] + dir[0];
-                int ny = curNode[1] + dir[1];
-                if (nx < 0 || ny < 0 || nx >= matrix.length || ny >= matrix[0].length || visited[nx][ny] || matrix[nx][ny] != 0) {
-                    continue;
+            orders.add(queue.peek());
+            int[] curr = decode(queue.poll());
+            for (int[] dir : directions) {
+                int nx = curr[0] + dir[0];
+                int ny = curr[1] + dir[1];
+                if (nx >= 0 && ny >= 0 && nx < rows && ny < cols) {
+                    int newOrder = encode(nx, ny);
+                    if (matrix[nx][ny] == 0 && !visited.contains(newOrder)) {
+                        queue.offer(newOrder);
+                        visited.add(newOrder);
+                    }
                 }
-                visited[nx][ny] = true;
-                queue.offer(new int[]{nx, ny});
-
-            }
-            if (queue.isEmpty()) {
-                endPoints.add(new int[]{curNode[0], curNode[1]});
             }
         }
+        return orders;
     }
 
+    private int encode(int x, int y) {
+        return x * cols + y;
+    }
 
+    private int[] decode(int order) {
+        return new int[]{order / cols, order % cols};
+    }
+
+    // Q3
     public int numDistinctIslands(int[][] grid) {
-        Set<String> dinstinctIslands = new HashSet<>();
-        StringBuilder curShape = new StringBuilder();
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
-                if (grid[i][j] == 1 && !visited[i][j]) {
-                    curShape.setLength(0);
-                    curShape.append("s"); // start
-                    describeIslandShape(curShape, i, j, grid);
-                    dinstinctIslands.add(curShape.toString());
+
+        cols = grid[0].length;
+        rows = grid.length;
+        Set<Integer> visited = new HashSet<>(); // Cells visited.
+        Set<String> uniqueShapes = new HashSet<>(); // Unique shpes.
+        StringBuilder shape;
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (grid[i][j] == 1) {
+                    int order = encode(i, j);
+                    if (!visited.contains(order)) {
+                        visited.add(order);
+                        shape = new StringBuilder("o");
+                        dfsTraversal(i, j, visited, grid, shape);
+                        uniqueShapes.add(shape.toString());
+                    }
                 }
             }
         }
 
-        return dinstinctIslands.size();
+        return uniqueShapes.size();
     }
 
-    private void describeIslandShape(StringBuilder curShape, int x, int y, int[][] grid) {
 
-        if (x < 0 || y < 0 || x >= grid.length || y >= grid[0].length || visited[x][y] || grid[x][y] == 0) {
-            return;
+    private void dfsTraversal(int x, int y, Set<Integer> visited, int[][] matrix, StringBuilder shape) {
+
+        for (int i = 0; i < directionsComponent.length; i++) {
+            int nx = x + directionsComponent[i][0];
+            int ny = y + directionsComponent[i][1];
+            if (nx >= 0 && ny >= 0 && nx < rows && ny < cols) {
+                int newOrder = encode(nx, ny);
+                if (matrix[nx][ny] == 1 && !visited.contains(newOrder)) {
+                    shape.append(i);
+                    visited.add(newOrder);
+                    dfsTraversal(nx, ny, visited, matrix, shape);
+                }
+            }
         }
+        shape.append("_");
 
-        visited[x][y] = true;
-        describeIslandShape(curShape.append("d"), x + 1, y, grid); // down
-        describeIslandShape(curShape.append("u"), x - 1, y, grid); // up
-        describeIslandShape(curShape.append("r"), x, y + 1, grid); // right
-        describeIslandShape(curShape.append("l"), x, y - 1, grid); // left
-
-        curShape.append("_");
     }
+
 }

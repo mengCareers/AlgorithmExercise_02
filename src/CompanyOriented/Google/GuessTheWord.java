@@ -12,7 +12,7 @@ import java.util.Random;
  * it's more about a strategy.
  */
 interface Master {
-    public int guess(String word);
+    int guess(String word);
 }
 
 public class GuessTheWord {

@@ -55,9 +55,6 @@ public class RestoreIPAddress {
     }
 
     private boolean isValidCut(String cut) {
-        if (Integer.parseInt(cut) > 255 || (cut.charAt(0) == '0' && cut.length() > 1)) {
-            return false;
-        }
-        return true;
+        return Integer.parseInt(cut) <= 255 && (cut.charAt(0) != '0' || cut.length() <= 1);
     }
 }

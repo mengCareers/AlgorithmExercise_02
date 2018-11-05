@@ -45,7 +45,7 @@ public class TicketResellers {
 
         while (k > 0) {
             curPrice = treeMap.firstKey();
-            curCnt = treeMap.remove((Integer) curPrice);
+            curCnt = treeMap.remove(curPrice);
             sumCnt += curCnt;
 
             while (treeMap.isEmpty() || curPrice > treeMap.firstKey()) {

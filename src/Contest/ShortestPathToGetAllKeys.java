@@ -104,10 +104,7 @@ public class ShortestPathToGetAllKeys {
     }
 
     private boolean isValid(char curLock, Set<Character> keysGot) {
-        if (keysGot.contains(Character.toLowerCase(curLock))) {
-            return true;
-        }
-        return false;
+        return keysGot.contains(Character.toLowerCase(curLock));
     }
 
     private String getAllKeys() {

@@ -72,7 +72,7 @@ public class AddBoldTaginString {
                 si++;
             }
             sb.append("<b>");
-            sb.append(s.substring(si, merged.get(mi).en + 1));
+            sb.append(s, si, merged.get(mi).en + 1);
             sb.append("</b>");
             si = merged.get(mi).en + 1;
             mi++;

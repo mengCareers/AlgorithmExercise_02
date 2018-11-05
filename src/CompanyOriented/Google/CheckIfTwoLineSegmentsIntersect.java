@@ -29,9 +29,8 @@ public class CheckIfTwoLineSegmentsIntersect {
         if (o1 == 0 && isOnSegment(p1, p2, q1)) return true;
         if (o2 == 0 && isOnSegment(p1, q2, q1)) return true;
         if (o3 == 0 && isOnSegment(p2, p1, q2)) return true;
-        if (o4 == 0 && isOnSegment(p2, q1, q2)) return true;
+        return o4 == 0 && isOnSegment(p2, q1, q2);
 
-        return false;
     }
 
     /**
@@ -43,11 +42,8 @@ public class CheckIfTwoLineSegmentsIntersect {
      * @return
      */
     private boolean isOnSegment(Point p, Point q, Point r) {
-        if (q.x <= Math.max(p.x, r.x) && q.y <= (Math.max(p.y, r.y)) &&
-                q.x >= Math.min(p.x, r.x) && q.y >= (Math.min(p.y, r.y))) {
-            return true;
-        }
-        return false;
+        return q.x <= Math.max(p.x, r.x) && q.y <= (Math.max(p.y, r.y)) &&
+                q.x >= Math.min(p.x, r.x) && q.y >= (Math.min(p.y, r.y));
     }
 
     /**

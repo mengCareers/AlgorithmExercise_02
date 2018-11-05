@@ -3,9 +3,9 @@ package CompanyOriented.Facebook;
 import java.util.List;
 
 public interface NestedInteger {
-    public boolean isInteger();
+    boolean isInteger();
 
-    public Integer getInteger();
+    Integer getInteger();
 
-    public List<NestedInteger> getList();
+    List<NestedInteger> getList();
 }
