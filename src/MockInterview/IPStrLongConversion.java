@@ -1,4 +1,4 @@
-package Mock;
+package MockInterview;
 
 public class IPStrLongConversion {
 

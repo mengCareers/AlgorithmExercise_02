@@ -1,4 +1,4 @@
-package Mock;
+package MockInterview;
 
 /*
  * If streaming, W/O additional memory is required

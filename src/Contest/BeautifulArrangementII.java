@@ -1,4 +1,4 @@
-package Trick;
+package Contest;
 
 /*
 667. Beautiful Arrangement II

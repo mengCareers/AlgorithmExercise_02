@@ -1,4 +1,4 @@
-package Mock;
+package MockInterview;
 
 import java.util.*;
 

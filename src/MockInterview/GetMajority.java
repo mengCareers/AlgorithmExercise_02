@@ -1,4 +1,4 @@
-package Mock;
+package MockInterview;
 
 /* Q:
 n sorted numbers given, find the majority number appears more than n / 4 times

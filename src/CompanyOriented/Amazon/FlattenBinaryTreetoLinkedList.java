@@ -1,3 +1,6 @@
+package CompanyOriented.Amazon;
+
+import CompanyOriented.Google.TreeNode;
 
 public class FlattenBinaryTreetoLinkedList {
     public void flatten(TreeNode root) {
