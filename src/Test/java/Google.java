@@ -1,9 +1,9 @@
 import CompanyOriented.Google.GuessTheWord;
-import CompanyOriented.Google.PhoneInterview.CharReplacement;
-import CompanyOriented.Google.PhoneInterview.CoverRangeCombinationSum;
-import CompanyOriented.Google.PhoneInterview.FamilyTree;
-import CompanyOriented.Google.PhoneInterview.StreamContainsWords;
-import CompanyOriented.Google.PhoneInterview.WildCardMatching;
+import CompanyOriented.Google.Interview.CharReplacement;
+import CompanyOriented.Google.Interview.CoverRangeCombinationSum;
+import CompanyOriented.Google.Interview.FamilyTree;
+import CompanyOriented.Google.Interview.StreamContainsWords;
+import CompanyOriented.Google.Interview.WildCardMatching;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
