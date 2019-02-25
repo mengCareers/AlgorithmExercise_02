@@ -1,4 +1,4 @@
-package BruteForce;
+package Backtracking;
 
 public class PermutationSequence {
 

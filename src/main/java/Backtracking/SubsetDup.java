@@ -1,4 +1,4 @@
-package BruteForce;
+package Backtracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;

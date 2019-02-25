@@ -1,4 +1,4 @@
-package BruteForce;
+package Backtracking;
 
 /* 31. Next Permutation
 which rearranges numbers into the lexicographically next greater permutation of numbers
